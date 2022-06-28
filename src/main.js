@@ -106,11 +106,11 @@ Vue.config.productionTip = false
 //   const VConsole = require('vconsole')
 //   new VConsole()
 // }
-import GSignInButton from 'vue-google-signin-button'
-Vue.use(GSignInButton)
+// import GSignInButton from 'vue-google-signin-button'
+// Vue.use(GSignInButton)
 
-import FBSignInButton from 'vue-facebook-signin-button'
-Vue.use(FBSignInButton)
+// import FBSignInButton from 'vue-facebook-signin-button'
+// Vue.use(FBSignInButton)
 
 // Number.prototype.toFixed = n => {
 //   n = n ? n : 0 //保留的小数位数
