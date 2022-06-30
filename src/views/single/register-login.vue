@@ -1,40 +1,47 @@
 <template>
-  <modMain
-    :title="checkType ? $t('my.txt16') : $t('my.txt17')"
-    class="noPadding register-login"
-  >
+<!--  <modMain-->
+<!--    :title="checkType ? $t('my.txt16') : $t('my.txt17')"-->
+<!--    class="noPadding register-login"-->
+<!--  >-->
+  <div class="noPadding register-login">
     <div class="login-main">
       <div class="login-container">
         <div class="login-title">
-          <switch-login v-if="checkType"></switch-login>
-          <p v-else>{{ $t('my.txt17') }}</p>
+          <img src="https://www.tslpowersun.com/img/logo.79cde429.png" alt="">
+          <p>พันธมิตรการลงทุนพลังงานแสงอาทิตย์ของคุณ</p>
         </div>
         <!-- <base-country v-if="!checkType"></base-country> -->
         <base-phone
           v-model.trim="form.username"
-          v-if="switchType == 'PHONE' && checkType"
+          v-if="switchType == 'PHONE'"
           type="text"
           :placeholder="checkType ? $t('reglogin.txt2') : $t('reglogin.txt1')"
         ></base-phone>
-        <base-input
-          v-model.trim="form.username"
-          v-show="!checkType"
-          type="text"
-          :placeholder="$t('reglogin.txt1')"
-        ></base-input>
-        <base-input
-          v-model.trim="form.username"
-          type="text"
-          v-show="switchType == 'EMAIL' && checkType"
-          :isError="isErrorEmail"
-          :placeholder="$t('reglogin.txt3')"
-        ></base-input>
+<!--        <base-input-->
+<!--          v-model.trim="form.username"-->
+<!--          v-show="switchType == 'EMAIL' && !checkType"-->
+<!--          type="text"-->
+<!--          :placeholder="$t('reglogin.txt1')"-->
+<!--        ></base-input>-->
+<!--        <base-input-->
+<!--          v-model.trim="form.username"-->
+<!--          type="text"-->
+<!--          v-show="switchType == 'EMAIL' && checkType"-->
+<!--          :isError="isErrorEmail"-->
+<!--          :placeholder="$t('reglogin.txt3')"-->
+<!--        ></base-input>-->
         <base-input
           v-model.trim="form.password"
           :isError="isErrorPwd"
           type="password"
           :placeholder="$t('reglogin.txt4')"
         ></base-input>
+        <base-code
+          ref="imgCode"
+          v-model="imgCode"
+          :isError="isErrorCode"
+          v-if="switchType == 'PHONE'"
+        ></base-code>
         <template v-if="checkType">
           <base-input
             v-model.trim="form.password2"
@@ -116,7 +123,7 @@
       <download :checkType="checkType"></download>
     </div>
     <loadding v-if="isShowLoadding"></loadding>
-  </modMain>
+  </div>
 </template>
 <script>
 // import validMixins from '../../mixins/validator' //有效性验证
@@ -478,16 +485,26 @@ export default {
 <style lang="less" scoped>
 .register-login {
   // padding: 0 20px;
-  background: #fff;
+  background: #002046;
 
   height: 100%;
   .login-main {
     padding: 0 20px;
     .login-title {
-      padding: 30px 0;
-      color: #0094f6;
-      font-size: 24px;
-      font-weight: 500;
+      img{
+        display: block;
+        padding-top: 50px;
+        width: 187px;
+        margin: 0 auto;
+      }
+      p{
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        margin: 15px 0 37px;
+        color: rgb(0, 163, 254);
+      }
     }
     // .base-input {
     //   &:nth-of-type(1) {
