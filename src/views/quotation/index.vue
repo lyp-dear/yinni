@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="home-top">
-      <div class="downarea" @click="downLoad" v-if="!isApp">
+      <!-- <div class="downarea" @click="downLoad" v-if="!isApp">
         <div class="downarea-logo">
           <img src="@/assets/image/sun/logo.png" alt="" />
         </div>
@@ -9,14 +9,22 @@
         <div class="downarea-btn">
           Download
         </div>
+      </div> -->
+      <div class="home-top-title">
+        <van-sticky>
+          <div class="logo">
+            <img src="@/assets/image/tsl/logo.png" alt="" />
+          </div>
+        </van-sticky>
       </div>
+
       <div class="banner">
         <img src="@/assets/image/sun/banner.jpg" alt="" />
       </div>
       <div class="intive-about">
         <router-link tag="div" to="/notice">
           <div class="intive-about-icon">
-            <img src="@/assets/image/sun/icon1.png" alt="" />
+            <img src="@/assets/image/tsl/icon1.png" alt="" />
           </div>
           <div class="intive-about-text">
             {{ $t('task.txt107') }}
@@ -24,7 +32,7 @@
         </router-link>
         <router-link tag="div" to="/about">
           <div class="intive-about-icon">
-            <img src="@/assets/image/sun/icon2.png" alt="" />
+            <img src="@/assets/image/tsl/icon2.png" alt="" />
           </div>
           <div class="intive-about-text">
             {{ $t('my.txt10') }}
@@ -32,110 +40,41 @@
         </router-link>
       </div>
     </div>
-    <div class="home-video-desc">
-      <div class="home-video">
-        <p>NIP:957-109-07-68</p>
-        <video src="@/assets/image/sun/video.mp4" controls></video>
-      </div>
-      <div class="home-desc">
-        <div class="home-desc-box">
-          <h5>mereka sama</h5>
-          <p>
-            Keputusan untuk beralih ke tenaga surya sederhana untuk Anda.
-            Memilih panel terbaik bisa tampak membingungkan.<br /><br />Tidak
-            semua panel surya diciptakan sama. Selama hampir 35 tahun, kami
-            telah merancang dan membuat sel surya tercanggih.<br /><br />Kami
-            percaya tenaga surya dapat menginspirasi mimpi dan teknologi kami
-            akan menginspirasi kepercayaan Anda. Kami menuntut lebih dari diri
-            kami sendiri karena pelanggan kami berhak mendapatkan semua manfaat
-            dari penggunaan energi surya yang lebih baik.
-          </p>
-          <img src="@/assets/image/sun/about1.png" alt="" />
+    <div class="product-container">
+      <div class="product-info">
+        <div class="product-tit">Solar PV-700</div>
+        <div class="product-img">
+          <img src="@/assets/image/tsl/product1.jpeg" alt="" />
         </div>
-        <div class="home-desc-box">
-          <h5>menetapkan batas-batas baru</h5>
+        <div class="product-txt">
+          <p>Pembangkitan energi: <span>11kWh</span></p>
           <p>
-            Kami percaya catatan belum dibuat.<br /><br />Perintis tenaga surya
-            yang paling giat memilih teknologi SunPower® untuk memecahkan rekor
-            dunia untuk perjalanan darat, laut dan udara.<br /><br />Teknologi
-            surya inovatif yang sama persis tersedia untuk Anda - di rumah,
-            bisnis, atau pembangkit listrik Anda.
+            {{ $t('product.txt22') }}:
+            <span> 11</span>
           </p>
-          <img src="@/assets/image/sun/about2.png" alt="" />
-        </div>
-        <div class="home-desc-box">
-          <h5>Para ahli mempercayai kami</h5>
           <p>
-            Pelajari mengapa teknologi sel surya SunPower disukai oleh
-            perusahaan terbesar di dunia dan pakar top.<br /><br />Kami tidak
-            dipercaya karena teknologi fotovoltaik hanyalah salah satu kegiatan
-            kami. Itu saja yang kami lakukan. Kami bangga dengan masa lalu kami.
-            Sejak 1985, kami telah memasang lebih dari 35 juta panel surya
-            SunPower. Ini seperti melepas knalpot dari sekitar 17 juta mobil.<br /><br />Kami
-            juga bersemangat tentang visi kami untuk masa depan. Teknologi
-            SunPower telah mendapatkan 900 paten dan membelanjakan lebih banyak
-            untuk R&D daripada perusahaan lain di industri ini.
+            {{ $t('product.txt6') }}:
+            <span>
+              {{ $utils.currencyType }}
+              11</span
+            >
           </p>
-          <img src="@/assets/image/sun/about3.png" alt="" />
-        </div>
-        <div class="home-desc-box">
-          <h5>Berikan dampak positif bagi dunia</h5>
           <p>
-            Setiap hari, pionir dan inovator di seluruh dunia mempercayai
-            keandalan dan kinerja terdepan dari teknologi SunPower untuk membuat
-            dunia menjadi tempat yang lebih baik. Dalam brosur informasi tentang
-            teknologi kami, kami menampilkan banyak organisasi dan aplikasi
-            inovatif yang membantu dunia bergerak lebih cepat dan orang-orang
-            melangkah lebih jauh dari yang dapat mereka bayangkan.
+            Periode pengembalian:
+            <span>11{{ $t('product.txt13') }}</span>
           </p>
-          <img src="@/assets/image/sun/about4.png" alt="" />
-        </div>
-        <div class="home-desc-box">
-          <h5>Produk unik</h5>
           <p>
-            Percaya diri dan simpan. Seperti yang kita semua tahu, teknologi
-            kita telah melampaui stratosfer. Namun di Bumi, teknologi SunPower
-            yang sama dapat digunakan untuk membantu mengurangi tagihan listrik
-            untuk rumah dan bisnis.<br /><br />
-            Spore dachy bez sporego budżetu? Ograniczone miejsce i duże
-            zapotrzebowanie na energię? SunPower ma na to sposób.<br /><br />Nasza
-            obszerna oferta paneli oferuje imponującą gamę niezawodnych
-            rozwiązań zaprojektowanych pod kątem optymalnej wydajności,
-            maksymalnych oszczędności i długoterminowej trwałości. Ponieważ
-            SunPower jest producentem Tier 11 z niemal 35 latami doświadczenia w
-            branży, dokonujesz najlepszego wyboru na najbliższe dziesiątki lat.
+            Total:
+            <span> {{ $utils.currencyType }}12</span>
           </p>
-          <img src="@/assets/image/sun/about5.png" alt="" />
-        </div>
-        <div class="home-desc-box">
-          <h5>Surya Tepercaya</h5>
-          <p>
-            Czy wybrana przez Ciebie firma z branży fotowoltaicznej utrzyma
-            działalność dłużej niż okres gwarancji, jaką oferuje? Od 35 lat
-            technologia SunPower przekracza granice innowacyjności na polu
-            energii słonecznej, zapewniając rekordową wydajność i niezrównaną
-            niezawodność, która wspiera pozytywną zmianę całego świata.
-          </p>
-          <img src="@/assets/image/sun/about6.png" alt="" />
-        </div>
-        <div class="home-desc-box">
-          <h5>Kekuatan untuk masa depan yang lebih baik</h5>
-          <p>
-            Benar, semua sel fotovoltaik menghasilkan energi bersih, tetapi
-            teknologi kami tidak berhenti di situ. Kami meningkatkan standar
-            untuk keberlanjutan dan menjadi kekuatan regeneratif bagi lingkungan
-            dan masyarakat. Teknologi SunPower - dari Cradle hingga Cradle
-            Certified™ SunPower Maxeon DC panel hingga menjadi satu-satunya
-            produsen panel surya yang disetujui melalui program Declare Label -
-            memimpin industri dalam perlindungan lingkungan.<br /><br />
-            Cradle to Cradle Certified™ adalah merek sertifikasi yang
-            dilisensikan oleh Cradle to Cradle Products Innovation Institute.
-            Cradle to Cradle Certified™ adalah program sertifikasi multi-segi
-            yang mengevaluasi produk dan bahan untuk kesehatan manusia dan
-            keselamatan lingkungan, desain tahan masa depan dan produksi
-            berkelanjutan.
-          </p>
-          <img src="@/assets/image/sun/about7.png" alt="" />
+          <div class="intive-price">
+            <p>邀请朋友佣金</p>
+            <p>{{ $utils.currencyType }}720</p>
+            <img src="@/assets/image/tsl/icon3.png" alt="" />
+          </div>
+          <div class="btn" @click="showBuy(item)">
+            {{ $t('product.txt24') }}
+          </div>
         </div>
       </div>
     </div>
@@ -406,9 +345,23 @@ export default {
 <style lang="less" scoped>
 .home {
   .home-top {
-    background: #fff;
-    padding: 10px;
-
+    // padding: 0 10px;
+    .home-top-title {
+      /deep/ .van-sticky {
+        display: flex;
+        background-image: linear-gradient(rgb(0, 27, 74), rgb(0, 58, 116));
+        border-bottom: 0.2px solid rgb(16, 142, 210);
+        background: linear-gradient(180deg, #001b4a, #003a74);
+        justify-content: center;
+        padding: 10px 0;
+        .logo {
+          width: 140px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
     .downarea {
       display: flex;
       align-items: center;
@@ -441,77 +394,116 @@ export default {
       }
     }
     .banner {
-      margin-top: 10px;
+      // margin-top: 10px;
       border-radius: 8px;
       overflow: hidden;
     }
     .intive-about {
-      margin-top: 10px;
+      margin: 10px;
       display: flex;
       align-items: center;
+      background: #002046;
+
       & > div {
         flex: 1;
-        display: flex;
-        align-items: center;
-        background: #e5f3fe;
-        color: #313131;
+
+        background: linear-gradient(
+          rgb(14, 135, 203) 0%,
+          rgb(5, 184, 218) 100%
+        );
+        color: #fff;
         font-size: 14px;
-        padding: 10px;
         border-radius: 4px;
-        justify-content: center;
+        text-align: center;
+        height: 64px;
+        line-height: 64px;
+        position: relative;
+        overflow: hidden;
         .intive-about-icon {
-          flex: 0 0 40px;
-          width: 40px;
+          position: absolute;
+          right: 0;
+          bottom: 12px;
+          width: 60px;
+          height: 40px;
           img {
             width: 100%;
           }
-        }
-        .intive-about-text {
-          margin-left: 8px;
         }
         &:nth-of-type(1) {
           margin-right: 5px;
         }
         &:nth-of-type(2) {
           margin-left: 5px;
-          background: #eceeff;
+          background: linear-gradient(rgb(9, 69, 139) 0%, rgb(0, 92, 156) 100%);
         }
       }
     }
   }
-  .home-video-desc {
-    padding: 20px 10px 10px 10px;
-    background: #fff;
-    .home-video {
-      p {
-        font-weight: 500;
+  .product-container {
+    padding: 15px;
+    .product-info {
+      border: 1px solid #005983 !important;
+      background-image: linear-gradient(180deg, #002962, #00376a) !important;
+      border-radius: 6px;
+      padding: 0 10px;
+      .product-tit {
         font-size: 14px;
-        color: #1989fa;
-        margin-bottom: 8px;
+        line-height: 30px;
+        color: #fff;
+        text-align: center;
       }
-      video {
+      .product-img {
         width: 100%;
-      }
-    }
-    .home-desc {
-      margin-top: 20px;
-      .home-desc-box {
-        h5 {
-          font-weight: 700;
-          color: #333;
-          margin-bottom: 12px;
-          font-size: 18px;
-          margin-top: 30px;
-        }
-        p {
-          color: #313131;
-          font-size: 14px;
-          line-height: 18px;
-        }
+        border: 1px solid #005983;
+        border-radius: 6px;
+
         img {
           width: 100%;
-          margin-top: 10px;
         }
+      }
+      .product-txt {
+        margin-top: 20px;
+        p {
+          display: flex;
+          color: #fff;
+          margin-bottom: 20px;
+          &:nth-of-type(5) {
+            background: rgba(0, 113, 178, 0.3);
+            line-height: 30px;
+            border-radius: 6px;
+            padding: 0 10px;
+          }
+          span {
+            margin-left: auto;
+            color: #fadda7;
+          }
+        }
+      }
+      .intive-price {
+        background: rgb(255, 38, 131);
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        p {
+          margin-bottom: 10px;
+        }
+        img {
+          position: absolute;
+          opacity: 0.1;
+          right: 20px;
+          bottom: 0;
+          width: 40px;
+        }
+      }
+      .btn {
+        background: #00a3fe;
+        color: #fff;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 10px;
       }
     }
   }

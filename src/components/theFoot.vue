@@ -1,5 +1,5 @@
 <template>
-  <van-tabbar v-model="active" active-color="#4975EE">
+  <van-tabbar v-model="active" active-color="none">
     <template v-for="item in footNavList">
       <van-tabbar-item :to="item.path">
         <template #icon="props">
@@ -36,7 +36,7 @@ export default {
           path: '/home',
           icon: {
             active: require('@/assets/image/tab/tab_home_nor.png'),
-            inactive: require('@/assets/image/tab/tab_home_sel.png'),
+            inactive: require('@/assets/image/tab/tab_home_nor.png'),
           },
         },
         {
@@ -44,19 +44,19 @@ export default {
           path: '/contract',
           icon: {
             active: require('@/assets/image/tab/tab_buy_nor.png'),
-            inactive: require('@/assets/image/tab/tab_buy_sel.png'),
+            inactive: require('@/assets/image/tab/tab_buy_nor.png'),
           },
         },
-        {
-          name: this.$t('index.txt38'), //活动
-          path: '/notice',
-          icon: {
-            active: require('@/assets/image/tab/tab_gg_nor.png'),
-            inactive: require('@/assets/image/tab/tab_gg_sel.png'),
-            // active: require('@/assets/image/tab/tab_liwu_nor.png'),
-            // inactive: require('@/assets/image/tab/tab_liwu_sel.png'),
-          },
-        },
+        // {
+        //   name: this.$t('index.txt38'), //活动
+        //   path: '/notice',
+        //   icon: {
+        //     active: require('@/assets/image/tab/tab_gg_nor.png'),
+        //     inactive: require('@/assets/image/tab/tab_gg_sel.png'),
+        //     // active: require('@/assets/image/tab/tab_liwu_nor.png'),
+        //     // inactive: require('@/assets/image/tab/tab_liwu_sel.png'),
+        //   },
+        // },
         {
           name: this.$t('index.txt39'), //团队
           path: '/welfare',
@@ -64,7 +64,7 @@ export default {
             // active: require('@/assets/image/tab/tab_team_nor.png'),
             // inactive: require('@/assets/image/tab/tab_team_sel.png'),
             active: require('@/assets/image/tab/tab_liwu_nor.png'),
-            inactive: require('@/assets/image/tab/tab_liwu_sel.png'),
+            inactive: require('@/assets/image/tab/tab_liwu_nor.png'),
           },
         },
         {
@@ -72,7 +72,7 @@ export default {
           path: '/my',
           icon: {
             active: require('@/assets/image/tab/tab_me_sel.png'),
-            inactive: require('@/assets/image/tab/tab_me_sel-1.png'),
+            inactive: require('@/assets/image/tab/tab_me_sel.png'),
           },
         },
       ],
