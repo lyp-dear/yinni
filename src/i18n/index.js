@@ -57,7 +57,8 @@ const i18n = new VueI18n({
     pt_BR: pt,
     ko_KR: ko,
     es_ES: es,
-    id_ID: id_id,
+    // id_ID: id_id,
+    id_ID: zh,
     vi_VN: vi,
   },
 })
