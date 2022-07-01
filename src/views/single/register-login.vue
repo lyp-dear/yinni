@@ -35,6 +35,7 @@
           :isError="isErrorPwd"
           type="password"
           :placeholder="$t('reglogin.txt4')"
+          v-show="!checkType"
         ></base-input>
         <base-code
           ref="imgCode"
@@ -44,26 +45,39 @@
         ></base-code>
         <template v-if="checkType">
           <base-input
+            v-model.trim="form.password"
+            :isError="isErrorPwd"
+            type="password"
+            :placeholder="$t('reglogin.txt4')"
+          ></base-input>
+          <base-input
             v-model.trim="form.password2"
             :isError="isErrorPwd"
             type="password"
             :placeholder="$t('reglogin.txt5')"
           ></base-input>
-          <base-code
-            ref="imgCode"
-            v-model="imgCode"
-            :isError="isErrorCode"
-            v-if="switchType == 'PHONE'"
-          ></base-code>
-          <baseSend
-            type="text"
-            :sendData="form"
-            v-model="code"
-            v-else
-            :placeholder="$t('reglogin.txt6')"
-            ref="sendPhone"
-            :isError="isErrorCode"
-          ></baseSend>
+          <base-input
+            v-model.trim="form.password2"
+            :isError="isErrorPwd"
+            type="invite"
+            :placeholder="'48666375'"
+            :disabled ="true"
+          ></base-input>
+<!--          <base-code-->
+<!--            ref="imgCode"-->
+<!--            v-model="imgCode"-->
+<!--            :isError="isErrorCode"-->
+<!--            v-if="switchType == 'PHONE'"-->
+<!--          ></base-code>-->
+<!--          <baseSend-->
+<!--            type="text"-->
+<!--            :sendData="form"-->
+<!--            v-model="code"-->
+<!--            v-else-->
+<!--            :placeholder="$t('reglogin.txt6')"-->
+<!--            ref="sendPhone"-->
+<!--            :isError="isErrorCode"-->
+<!--          ></baseSend>-->
         </template>
         <!-- <base-country></base-country> -->
         <!-- <template v-if="switchType == 'PHONE'">
@@ -83,32 +97,31 @@
             </p>
           </div>
         </template>
-        <template v-if="checkType">
-          <div class="register-agree">
-            <span
-              class="agree-icon"
-              :class="{ tongyi: isAgree }"
-              @click="isAgree = !isAgree"
-            ></span>
-            <p class="agree-txt">
-              {{ $t('reglogin.txt19') }}
-              <span @click="openXy(1)">{{ $t('reglogin.txt8') }}</span>
-            </p>
-          </div>
-        </template>
         <div class="btn-wrap" :class="[checkType ? 'reg' : 'login']">
           <template v-if="checkType">
             <base-btn
               :btnTitle="$t('my.txt16')"
-              :disabled="disabled"
+              :disabled="false"
               @btnClick="btnRegister"
+              :isSelect="false"
+            ></base-btn>
+            <base-btn
+              :btnTitle="$t('my.txt17')"
+              :disabled="false"
+              @btnClick="switchLoginOrResigter(false)"
             ></base-btn>
           </template>
           <template v-else>
             <base-btn
               :btnTitle="$t('my.txt17')"
-              :disabled="loginDisabled"
+              :disabled="false"
               @btnClick="btnLogin"
+              :isSelect="false"
+            ></base-btn>
+            <base-btn
+              :btnTitle="$t('my.txt16')"
+              :disabled="false"
+              @btnClick="switchLoginOrResigter(true)"
             ></base-btn>
           </template>
 
@@ -116,11 +129,26 @@
           Jika Anda tidak dapat menerima kode verifikasi SMS, klik untuk
           menghubungi layanan pelanggan
         </p> -->
-          <group-service ref="groupService"></group-service>
+<!--          <group-service ref="groupService"></group-service>-->
         </div>
+        <template v-if="checkType">
+          <div class="register-agree" @click="openXy(1)">
+<!--            <span-->
+<!--              class="agree-icon"-->
+<!--              :class="{ tongyi: isAgree }"-->
+<!--              @click="isAgree = !isAgree"-->
+<!--            ></span>-->
+            <div class="agree-txt">
+              <span>{{"签署"}}</span>
+              <span>{{"服务协议"}}</span>
+              <span>{{ "和" }}</span>
+              <span>{{ "用户条款" }}</span>
+            </div>
+          </div>
+        </template>
       </div>
       <!-- <fb-google /> -->
-      <download :checkType="checkType"></download>
+<!--      <download :checkType="checkType"></download>-->
     </div>
     <loadding v-if="isShowLoadding"></loadding>
   </div>
@@ -475,6 +503,19 @@ export default {
         },
       })
     },
+    switchLoginOrResigter(isResigter) {
+      if (isResigter) {
+        this.setCheckType(true)
+        this.$router.replace({
+          path: '/register',
+        })
+      } else {
+        this.setCheckType(false)
+        this.$router.replace({
+          path: '/login',
+        })
+      }
+    },
   },
   beforeDestroy() {
     this.isShowLoadding = false
@@ -513,17 +554,47 @@ export default {
     // }
     .btn-wrap {
       &.reg {
-        margin-bottom: 60px;
+        margin-bottom: 15px;
       }
       &.login {
         margin-bottom: 190px;
       }
     }
     .forgot {
+      padding: 21px 0px;
       text-align: right;
       span {
-        color: #66717c;
+        color: #848cad;
         font-size: 14px;
+      }
+    }
+    .register-agree{
+      &::before {
+        display: inline-block;
+        text-align: center;
+        width: 9px;
+        height: 9px;
+        content: 'i';
+        font-size: 3px !important;
+        font-weight: bold;
+        font-family: Helvetica, 'PingFang SC' ;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        color: #fff;
+      }
+    }
+    .agree-txt{
+      display: flex;
+      justify-content: flex-start;
+      span{
+         padding-left: 5px;
+         color: #848cad;
+         &:nth-child(2){
+           color: rgb(0, 163, 254) ;
+         }
+        &:nth-child(4){
+          color: rgb(0, 163, 254) ;
+        }
       }
     }
   }

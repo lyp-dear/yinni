@@ -1,6 +1,6 @@
 <template>
   <div class="base-btn">
-    <button :class="{'no-round':!round}" v-if="btnTitle" :disabled="disabled" @click="$emit('btnClick')">{{btnTitle}}</button>
+    <button :class="{'no-round':!round,'isSelect':isSelect}" v-if="btnTitle" :disabled="disabled" @click="$emit('btnClick')">{{btnTitle}}</button>
   </div>
 </template>
 <script>
@@ -16,6 +16,24 @@ export default {
       type: Boolean,
       default: true
     },
+    isSelect: {
+      type: Boolean,
+      default: true
+    },
   }
 }
 </script>
+<style lang="less" scoped>
+.base-btn{
+  margin-left: 0px;
+  button{
+    background-color: rgb(0, 163, 254);
+    border-radius: 6px;
+  }
+  .isSelect{
+    background-color: rgb(0, 32, 70);
+    border: 0.5px solid #fff;
+    border-radius: 6px;
+  }
+}
+</style>

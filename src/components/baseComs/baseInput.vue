@@ -1,13 +1,15 @@
 <template>
   <div class="base-input" :class="{ click: isClick, error: isError }">
     <div class="input-box">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAOVBMVEUAAAAITP8ISv8AQP8HSv8HSv8HSv8GSf8ISv8HSv8FSv8HS/8HS/8ISP8IS/8ISv8GSv8ISv8IS/9cr4fpAAAAEnRSTlMAQMAQkPCwUODQMO9wIKB/8mDtBu1WAAAAxUlEQVRIx+2U2w7CIBAFC1ug0Is6//+xamJCtUu3vmrnqYTp5hBO6E6OI5eYGf3FHbLTyItebDtSGYpl90BOcycuPn1jvltlSAH6fX2A+PavM4YHWSUzxk/v+w68cdBpvQb2dP8RNkMx9M/1D+rSexSufmr2VieXjT1XW/G1mmc1pqQBNnkCtLqdaksb7ZA0r3LCsK8vjNu9tu7B/Ym+EDpbrzip3wLhu1v1SmcW3Z+z0plCC/2pvNEkaI9HiUEf/Qh5YnIHjVQYHn8OdwkAAAAASUVORK5CYII=" alt="">
+      <img v-if="type == 'password'" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAOVBMVEUAAAAITP8ISv8AQP8HSv8HSv8HSv8GSf8ISv8HSv8FSv8HS/8HS/8ISP8IS/8ISv8GSv8ISv8IS/9cr4fpAAAAEnRSTlMAQMAQkPCwUODQMO9wIKB/8mDtBu1WAAAAxUlEQVRIx+2U2w7CIBAFC1ug0Is6//+xamJCtUu3vmrnqYTp5hBO6E6OI5eYGf3FHbLTyItebDtSGYpl90BOcycuPn1jvltlSAH6fX2A+PavM4YHWSUzxk/v+w68cdBpvQb2dP8RNkMx9M/1D+rSexSufmr2VieXjT1XW/G1mmc1pqQBNnkCtLqdaksb7ZA0r3LCsK8vjNu9tu7B/Ym+EDpbrzip3wLhu1v1SmcW3Z+z0plCC/2pvNEkaI9HiUEf/Qh5YnIHjVQYHn8OdwkAAAAASUVORK5CYII=" alt="">
+      <img v-else src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAPFBMVEUAAAAISv8ITP8ISv8HSv8AQP8HS/8ISv8ISP8HSv8ISv8GSf8HS/8FSv8HSv8IS/8ISv8HSv8HSv8IS/95DGjdAAAAE3RSTlMAgEDA8BBw3yCQYFDQMLCg4M9v2wDu2QAAAOxJREFUSMfdlNsOhCAMBaFFLl53d/7/X9fEGDVEwFfnjWTSlEOLeRHdbw4E/XVNtgQ2gjTYPQe+ak+A66OJwweYavoI49Z0N0Oo9C/g4n5lB0NZt5DOB1vW53NBAS3rCvJAT+DPmS7V1PXorJp85FCGhuAtexzebSlV34mw2PQFxoZ5VHY0mga8OwasCemtF/N2JrFnYjHz5LgipcoB2nVh5aPXZm4nvwvgst281ZfV7kyz7kBMsy5385pU9QtOV0x9MZUDU/lUnuuTiHgYZSXTW6+aYKjq+f/VrufsFaK1/VWfS3rO4CDnZQv+B0ygFh1Hqdi/AAAAAElFTkSuQmCC" alt="">
       <input
         class="ipt"
         :type="typePwd"
         :value="value"
         :placeholder="placeholder"
         :name="name"
+        :disabled="disabled"
         @click="iptClick"
         @blur="iptBlur"
         @input="$emit('input', $event.target.value)"
@@ -81,6 +83,7 @@ export default {
   background-image: linear-gradient(180deg,#002962,#00376a);
   border: 1px solid #005983;
   border-radius: 6px;
+  padding-right: 0px;
   .input-box{
     display: flex;
     align-items: center;

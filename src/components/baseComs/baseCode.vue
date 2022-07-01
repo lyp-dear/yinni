@@ -76,6 +76,9 @@ export default {
   background-image: linear-gradient(180deg,#002962,#00376a);
   border: 1px solid #005983;
   border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0px;
   .input-box{
     display: flex;
     align-items: center;
