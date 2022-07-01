@@ -590,10 +590,10 @@ export default {
          padding-left: 5px;
          color: #848cad;
          &:nth-child(2){
-           color: rgb(0, 163, 254) ;
+           color: rgb(0, 163, 254);
          }
         &:nth-child(4){
-          color: rgb(0, 163, 254) ;
+          color: rgb(0, 163, 254);
         }
       }
     }
