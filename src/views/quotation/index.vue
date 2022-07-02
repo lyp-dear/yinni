@@ -41,35 +41,45 @@
       </div>
     </div>
     <div class="product-container">
-      <div class="product-info">
+      <div class="product-info" v-for="(item, index) in orderData" :key="index">
         <div class="product-tit">Solar PV-700</div>
         <div class="product-img">
           <img src="@/assets/image/tsl/product1.jpeg" alt="" />
         </div>
         <div class="product-txt">
-          <p>Pembangkitan energi: <span>11kWh</span></p>
+          <p>
+            Pembangkitan energi: <span>{{ item.specification }}kWh</span>
+          </p>
           <p>
             {{ $t('product.txt22') }}:
-            <span> 11</span>
+            <span>
+              {{ (item.returnRate * 100).toFixed(1) }}
+              %</span
+            >
           </p>
           <p>
             {{ $t('product.txt6') }}:
             <span>
               {{ $utils.currencyType }}
-              11</span
+              {{ $utils.getkStr(item.actualPrice * item.returnRate) }}</span
             >
           </p>
           <p>
             Periode pengembalian:
-            <span>11{{ $t('product.txt13') }}</span>
+            <span>{{ item.cycle }}{{ $t('product.txt13') }}</span>
           </p>
           <p>
             Total:
-            <span> {{ $utils.currencyType }}12</span>
+            <span>
+              {{ $utils.currencyType
+              }}{{
+                $utils.getkStr(item.actualPrice * item.returnRate * item.cycle)
+              }}</span
+            >
           </p>
           <div class="intive-price">
             <p>邀请朋友佣金</p>
-            <p>{{ $utils.currencyType }}720</p>
+            <p>{{ $utils.currencyType }}{{ item.actualPrice * 0.005 }}</p>
             <img src="@/assets/image/tsl/icon3.png" alt="" />
           </div>
           <div class="btn" @click="showBuy(item)">
@@ -271,7 +281,7 @@ export default {
     }
   },
   mounted() {
-    // this.getOrderData()
+    this.getOrderData()
     // this.showAward()
     this.isApp = sessionStorage.getItem('appId')
   },
@@ -320,8 +330,8 @@ export default {
           let { records } = res.data
           // this.redItem = records.find(d => d.originalPrice == 100000)
           this.orderData = res.data.records
-          this.redItem.push(this.orderData.find(d => d.actualPrice == 6000000))
-          this.redItem.push(this.orderData.find(d => d.actualPrice == 8000000))
+          // this.redItem.push(this.orderData.find(d => d.actualPrice == 6000000))
+          // this.redItem.push(this.orderData.find(d => d.actualPrice == 8000000))
         } else {
           this.errDialog(res.msg)
         }
