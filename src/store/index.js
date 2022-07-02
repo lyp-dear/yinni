@@ -26,7 +26,7 @@ export default new Vuex.Store({
     imgBaseUrl: '', //图片前缀
     checkType: true, //true注册 false登录
     isShowBlance: true, //金额是否显示
-    switchType: 'EMAIL', // 邮箱 or 手机
+    switchType: 'PHONE', // 邮箱 or 手机 EMAIL
     hasNewObj: {
       hasNewLuckyMoney: false,
       hasNewNotice: false,

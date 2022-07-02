@@ -181,3 +181,12 @@ export default {
   },
 }
 </script>
+<style lang="less" scoped>
+.single-main{
+  background-color: #002046;
+  .van-nav-bar{
+    background-image: linear-gradient(#001b4a,#003a74);
+    border-bottom: 1px solid #005983;
+  }
+}
+</style>

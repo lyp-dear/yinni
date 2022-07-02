@@ -12,7 +12,19 @@
       <template v-else>
         <base-input v-model.trim="form.email" :isError="isErrorEmail" :placeholder="$t('home.enterEmail')"></base-input>
       </template> -->
-      <p class="form-title">{{ $t('reset.txt2') }}</p>
+<!--      <p class="form-title">{{ $t('reset.txt2') }}</p>-->
+      <base-phone
+        v-model.trim="form.username"
+        v-if="true"
+        type="text"
+        :placeholder="checkType ? $t('reglogin.txt2') : $t('reglogin.txt1')"
+      ></base-phone>
+      <base-send
+        v-model.trim="form.username"
+        v-if="true"
+        type="text"
+        :placeholder="checkType ? $t('reglogin.txt2') : $t('reglogin.txt1')"
+      ></base-send>
       <base-input
         v-model.trim="form.username"
         :isError="isErrorEmail"
@@ -36,7 +48,9 @@
 </template>
 <script>
 import { mapActions, mapGetters, mapMutations } from 'vuex'
+import BaseSend from "../../components/baseComs/baseSend";
 export default {
+  components: {BaseSend},
   data() {
     return {
       isShowOrgCode: false,
