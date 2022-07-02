@@ -19,7 +19,7 @@
       </div>
 
       <div class="banner">
-        <img src="@/assets/image/sun/banner.jpg" alt="" />
+        <img src="@/assets/image/tsl/about4.jpeg" alt="" />
       </div>
       <div class="intive-about">
         <router-link tag="div" to="/notice">
@@ -42,7 +42,7 @@
     </div>
     <div class="product-container">
       <div class="product-info" v-for="(item, index) in orderData" :key="index">
-        <div class="product-tit">Solar PV-700</div>
+        <div class="product-tit">{{ item.name }}</div>
         <div class="product-img">
           <img src="@/assets/image/tsl/product1.jpeg" alt="" />
         </div>
@@ -89,6 +89,9 @@
       </div>
     </div>
     <van-popup v-model="showNotic" class="notic-pop">
+      <div class="pop-icon">
+        <img src="@/assets/image/tsl/popbox.png" alt="" />
+      </div>
       <div class="notic-info">
         <div class="title">A harus melihat untuk pengguna baru</div>
         <p class="desc">
@@ -314,14 +317,14 @@ export default {
       this.buyLoading = true
       let obj = Object.assign({}, item)
       obj.isBuy = false
-      if (this.isLogin()) {
-        this.$router.push({
-          path: '/investimento',
-          query: {
-            data: JSON.stringify(obj),
-          },
-        })
-      }
+      // if (this.isLogin()) {
+      this.$router.push({
+        path: '/investimento',
+        query: {
+          data: JSON.stringify(obj),
+        },
+      })
+      // }
       this.buyLoading = false
     },
     getOrderData() {
@@ -446,74 +449,6 @@ export default {
           margin-left: 5px;
           background: linear-gradient(rgb(9, 69, 139) 0%, rgb(0, 92, 156) 100%);
         }
-      }
-    }
-  }
-  .product-container {
-    padding: 15px;
-    .product-info {
-      border: 1px solid #005983 !important;
-      background-image: linear-gradient(180deg, #002962, #00376a) !important;
-      border-radius: 6px;
-      padding: 0 10px;
-      .product-tit {
-        font-size: 14px;
-        line-height: 30px;
-        color: #fff;
-        text-align: center;
-      }
-      .product-img {
-        width: 100%;
-        border: 1px solid #005983;
-        border-radius: 6px;
-
-        img {
-          width: 100%;
-        }
-      }
-      .product-txt {
-        margin-top: 20px;
-        p {
-          display: flex;
-          color: #fff;
-          margin-bottom: 20px;
-          &:nth-of-type(5) {
-            background: rgba(0, 113, 178, 0.3);
-            line-height: 30px;
-            border-radius: 6px;
-            padding: 0 10px;
-          }
-          span {
-            margin-left: auto;
-            color: #fadda7;
-          }
-        }
-      }
-      .intive-price {
-        background: rgb(255, 38, 131);
-        border-radius: 6px;
-        padding: 10px;
-        margin-bottom: 10px;
-        position: relative;
-        p {
-          margin-bottom: 10px;
-        }
-        img {
-          position: absolute;
-          opacity: 0.1;
-          right: 20px;
-          bottom: 0;
-          width: 40px;
-        }
-      }
-      .btn {
-        background: #00a3fe;
-        color: #fff;
-        font-weight: 700;
-        line-height: 50px;
-        text-align: center;
-        border-radius: 8px;
-        margin-bottom: 10px;
       }
     }
   }

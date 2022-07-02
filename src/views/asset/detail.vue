@@ -1,86 +1,66 @@
 <template>
-  <modMain :title="$t('product.txt1')" class="noPadding buydetail">
+  <modMain :title="item.name" class="noPadding buydetail">
     <div class="buydetail-main">
       <div class="banner">
-        <img src="@/assets/image/sun/prodetail.jpg" />
+        <img src="@/assets/image/tsl/product1.jpeg" alt="" />
       </div>
-      <div class="product-parameter">
-        <div class="product-parameter-title">
-          <span>Pembelian tidak terbatas</span>
-          <span>SunPower Maxeon</span>
-        </div>
-        <div class="product-parameter-data">
-          <p class="product-price">
-            <span> {{ $t('product.txt17') }}:</span> {{ $utils.currencyType
-            }}{{ $utils.getkStr(item.actualPrice) }}
-          </p>
-          <div class="product-rate-box">
-            <div>
-              <p>{{ (item.returnRate * 100).toFixed(1) }}%</p>
-              <p>{{ $t('product.txt22') }}</p>
-            </div>
-            <div>
-              <p>
-                {{ $utils.currencyType
-                }}{{ $utils.getkStr(item.actualPrice * item.returnRate) }}
-              </p>
-              <p>{{ $t('product.txt6') }}</p>
-            </div>
-            <div>
-              <p>{{ item.cycle }}{{ $t('product.txt13') }}</p>
-              <p>Periode pengembalian</p>
-            </div>
-          </div>
-          <div class="product-desc-box">
-            <div>Laporan pendapatan harian</div>
-            <div>Jaminan keamanan dana</div>
-          </div>
-        </div>
-      </div>
-      <div class="product-calculation">
-        <p>Algoritme pendapatan proyek</p>
+      <div class="buydetail-txt">
         <p>
-          Total return = daily return * investment cycle; rate of return = total
-          return / value
+          Pembangkitan energi: <span>{{ item.specification }}kWh</span>
         </p>
-        <div class="product-img-box">
-          <div><img src="@/assets/image/sun/detail1.png" alt="" /></div>
-          <div><img src="@/assets/image/sun/detail2.png" alt="" /></div>
-          <div><img src="@/assets/image/sun/detail3.png" alt="" /></div>
+        <p>
+          {{ $t('product.txt22') }}:
+          <span>
+            {{ (item.returnRate * 100).toFixed(1) }}
+            %</span
+          >
+        </p>
+        <p>
+          {{ $t('product.txt6') }}:
+          <span>
+            {{ $utils.currencyType }}
+            {{ $utils.getkStr(item.actualPrice * item.returnRate) }}</span
+          >
+        </p>
+        <p>
+          Periode pengembalian:
+          <span>{{ item.cycle }}{{ $t('product.txt13') }}</span>
+        </p>
+        <p>
+          Total:
+          <span>
+            {{ $utils.currencyType
+            }}{{
+              $utils.getkStr(item.actualPrice * item.returnRate * item.cycle)
+            }}</span
+          >
+        </p>
+        <div class="buydetail-price">
+          <p>邀请朋友佣金</p>
+          <p>{{ $utils.currencyType }}{{ item.actualPrice * 0.005 }}</p>
+          <!-- <img src="@/assets/image/tsl/icon3.png" alt="" /> -->
         </div>
-      </div>
-      <div class="product-calculation">
-        <p>{{ $t('product.txt2') }}</p>
-        <p>{{ item.name }}</p>
-      </div>
 
-      <div class="product-calculation">
-        <p>Periode pengembalian</p>
-        <p>{{ item.cycle }}{{ $t('product.txt13') }}</p>
-      </div>
-      <div class="product-calculation">
-        <p>Perusahaan mitra</p>
-        <p>Addepar, Inc. Skuchain, Inc.</p>
-      </div>
-      <div class="product-calculation">
-        <p>Perhitungan tingkat pengembalian</p>
-        <p>rate of return = total return / value</p>
-      </div>
-      <div class="product-calculation">
-        <p>Cara Pembayaran</p>
-        <p>Network transfer</p>
-      </div>
-      <div class="product-calculation">
-        <p>Keamanan keuangan</p>
-        <p>
-          Dana yang dibeli oleh pengguna diatur oleh Bank Negara Indonesia dan
-          digunakan untuk menghasilkan listrik untuk rumah tangga dan
-          perusahaan. Perusahaan telah menandatangani perjanjian jual beli
-          listrik dengan Jaringan Nasional Indonesia, dan semua panel
-          fotovoltaik memiliki pendapatan yang stabil.
-        </p>
+        <div class="product-info">
+          <p>产品介绍</p>
+          <p>产品详情:</p>
+          <p class="zhu">
+            注：所有远程太阳能设备均由特斯拉检查和管理，并出售给政府能源回收公司，以促进经济增长和环境保护。
+          </p>
+          <p>
+            1.最多购买100套,价格为{{ $utils.currencyType }}{{ item.actualPrice
+            }}<br />2.每日回报{{
+              item.returnRate
+            }}%,总回报1000%.<br />3.收益每日发放,到期返还本金.4.您可以享受朋友投资的8%+2%的红利
+          </p>
+          <div class="procut-desc">
+            Tesla Powerwall 是共享经济的能源平台。<br />推动新能源发展，造福世界人民。<br />特斯拉将在世界各地阳光充足的地方建造大型太阳能发电站。<br />让每一位用户都获得新能量。
+          </div>
+          <img src="@/assets/image/tsl/pro1.png" alt="" />
+        </div>
       </div>
     </div>
+
     <div class="inver-btn">
       <van-button class="btn" :loading="isLoading" @click="showBuy">{{
         $t('product.txt24')
@@ -296,109 +276,70 @@ export default {
           width: 100%;
         }
       }
-      .product-parameter {
-        border: 1px solid #d7d7d7;
-        background: #fff;
-        border-radius: 6px;
-        overflow: hidden;
-        .product-parameter-title {
-          background: linear-gradient(90deg, #f55160, #a0041c);
-          display: flex;
-          align-items: center;
-          padding: 0 10px;
-          height: 30px;
-          line-height: 30px;
-          & > span {
-            font-size: 14px;
-            color: #fff;
-            &:nth-of-type(2) {
-              margin-left: auto;
-            }
-          }
-        }
-        .product-parameter-data {
-          padding: 20px 10px 10px 10px;
-          .product-price {
-            color: #4476da;
-            span {
-              color: #2e2e2e;
-              font-weight: 500;
-            }
-          }
-          .product-rate-box {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-            & > div {
-              flex: 1;
-              text-align: center;
-              p {
-                font-size: 14px;
-
-                color: #4476da;
-                &:nth-of-type(1) {
-                  font-weight: 500;
-                }
-                &:nth-of-type(2) {
-                  color: #2e2e2e;
-                  margin-top: 6px;
-                }
-              }
-            }
-          }
-        }
-        .product-desc-box {
-          margin-top: 10px;
-          display: flex;
-          & > div {
-            flex: 1;
-            border-radius: 6px;
-            background: #df3688;
-            color: #fff;
-            height: 96px;
-            line-height: 30px;
-            text-align: center;
-            padding: 10px;
-            &:nth-of-type(1) {
-              margin-right: 6px;
-            }
-            &:nth-of-type(2) {
-              background: #369ff7;
-              margin-left: 6px;
-            }
-          }
-        }
-      }
-      .product-calculation {
-        border: 1px solid #d7d7d7;
-        background: #fff;
-        border-radius: 6px;
-        overflow: hidden;
-        padding: 20px 10px 10px 10px;
-        margin-top: 10px;
+      .buydetail-txt {
+        margin-top: 20px;
         p {
-          &:nth-of-type(1) {
-            margin-bottom: 10px;
-            font-size: 14px;
-          }
-          &:nth-of-type(2) {
-            font-size: 12px;
-            line-height: 24px;
-          }
-        }
-        .product-img-box {
           display: flex;
-          margin-top: 10px;
-          justify-content: space-between;
-          > div {
-            flex: 0 0 80px;
-            width: 80px;
-            img {
-              width: 100%;
-            }
+          color: #fff;
+          margin-bottom: 20px;
+          &:nth-of-type(5) {
+            background: rgba(0, 113, 178, 0.3) !important;
+            line-height: 30px;
+            border-radius: 6px;
+            padding: 0 10px;
+          }
+          span {
+            margin-left: auto;
+            color: #fadda7;
           }
         }
       }
+      .buydetail-price {
+        background: rgb(255, 38, 131);
+        border-radius: 6px;
+        padding: 0 10px;
+        position: relative;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        p {
+          margin-bottom: 0;
+          &:nth-of-type(2) {
+            margin-left: auto;
+          }
+        }
+      }
+      .product-info {
+        box-shadow: 0 0.1rem 0.32rem 0 hsl(0deg 0% 100% / 12%);
+        border-radius: 6px;
+        padding: 10px;
+        margin-top: 15px;
+        .zhu {
+          color: #e03e2d;
+        }
+        p {
+          font-size: 14px;
+          line-height: 24px;
+        }
+        .procut-desc {
+          font-size: 14px;
+          line-height: 24px;
+          color: #fff;
+        }
+        img {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .inver-btn {
+    background: none;
+    /deep/ .van-button {
+      background: #00a3fe;
+      border: 0;
+      height: 40px;
+      line-height: 40px;
     }
   }
 }

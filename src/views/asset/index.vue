@@ -11,21 +11,17 @@
       </div>
     </div>
     <div class="asset-container" v-if="active == 0">
-      <div class="asset-info" v-for="(item, index) in orderData" :key="index">
-        <div class="asset-title">
-          <span>{{ item.name }}</span>
-          <span
-            >{{ $t('product.txt17') }}: {{ $utils.currencyType
-            }}{{ $utils.getkStr(item.actualPrice) }}</span
-          >
-        </div>
-        <div class="asset-product">
-          <div class="asset-image">
-            <van-image width="100%" lazy-load :src="item.imgUrl">
-              <template v-slot:default> </template>
-            </van-image>
+      <div class="product-container">
+        <div
+          class="product-info"
+          v-for="(item, index) in orderData"
+          :key="index"
+        >
+          <div class="product-tit">{{ item.name }}</div>
+          <div class="product-img">
+            <img src="@/assets/image/tsl/product1.jpeg" alt="" />
           </div>
-          <div class="asset-txt">
+          <div class="product-txt">
             <p>
               Pembangkitan energi: <span>{{ item.specification }}kWh</span>
             </p>
@@ -58,6 +54,11 @@
                 }}</span
               >
             </p>
+            <div class="intive-price">
+              <p>邀请朋友佣金</p>
+              <p>{{ $utils.currencyType }}{{ item.actualPrice * 0.005 }}</p>
+              <img src="@/assets/image/tsl/icon3.png" alt="" />
+            </div>
             <div class="btn" @click="showBuy(item)">
               {{ $t('product.txt24') }}
             </div>
@@ -66,22 +67,17 @@
       </div>
     </div>
     <div class="my-project" v-if="active == 1">
-      <div class="asset-info" v-for="(item, index) in orderData2" :key="index">
-        <div class="asset-title">
-          <span>{{ item.name }} </span>
-          <span>{{
-            item.status == 'WORKING'
-              ? 'Peralatan bekerja'
-              : 'Instalasi peralatan'
-          }}</span>
-        </div>
-        <div class="asset-product">
-          <div class="asset-image">
-            <van-image width="100%" lazy-load :src="item.imgUrl">
-              <template v-slot:default> </template>
-            </van-image>
+      <div class="product-container">
+        <div
+          class="product-info"
+          v-for="(item, index) in orderData2"
+          :key="index"
+        >
+          <div class="product-tit">{{ item.name }}</div>
+          <div class="product-img">
+            <img src="@/assets/image/tsl/product1.jpeg" alt="" />
           </div>
-          <div class="asset-txt">
+          <div class="product-txt">
             <p>
               Pembangkitan energi: <span>{{ item.specification }}kWh</span>
             </p>
@@ -96,13 +92,32 @@
               {{ $t('product.txt6') }}:
               <span>
                 {{ $utils.currencyType }}
-                {{ $utils.getkStr(item.perProfit) }}</span
+                {{ $utils.getkStr(item.actualPrice * item.returnRate) }}</span
               >
             </p>
             <p>
               Periode pengembalian:
               <span>{{ item.cycle }}{{ $t('product.txt13') }}</span>
             </p>
+            <p>
+              Total:
+              <span>
+                {{ $utils.currencyType
+                }}{{
+                  $utils.getkStr(
+                    item.actualPrice * item.returnRate * item.cycle
+                  )
+                }}</span
+              >
+            </p>
+            <div class="intive-price">
+              <p>邀请朋友佣金</p>
+              <p>{{ $utils.currencyType }}{{ item.actualPrice * 0.005 }}</p>
+              <img src="@/assets/image/tsl/icon3.png" alt="" />
+            </div>
+            <div class="btn" @click="showBuy(item)">
+              {{ $t('product.txt24') }}
+            </div>
           </div>
         </div>
       </div>
@@ -351,7 +366,7 @@ export default {
 
       background: #fff;
       &.active {
-        background: #5088f8;
+        background: linear-gradient(180deg, #001b4a, #003a74);
         color: #fff;
       }
     }
@@ -417,8 +432,6 @@ export default {
     }
   }
   .asset-container {
-    padding: 0 10px;
-    margin-top: 10px;
   }
   .my-project {
     padding: 0 10px;
