@@ -3,9 +3,18 @@
 
   <!-- </modMain> -->
   <div class="task">
-    <top-bg :tit="$t('index.txt39')"></top-bg>
+    <!-- <top-bg :tit="$t('index.txt39')"></top-bg> -->
+    <div class="page-left">
+      <img src="@/assets/image/tsl/left.png" alt="" />
+    </div>
+    <div class="task-tit">成为代理并赚取更多收入</div>
+    <div class="intive-btn">
+      <van-button @click="share()">邀请好友</van-button>
+    </div>
+
     <div class="task-content">
-      <div class="intive-box">
+      <div class="task-tab">每日任务</div>
+      <!-- <div class="intive-box">
         <div class="intive-left">
           <img src="@/assets/image/home/intive.png" alt="" />
         </div>
@@ -16,12 +25,12 @@
           </div>
           <p>{{ $t('task.txt106') }}</p>
         </div>
-      </div>
+      </div> -->
       <div class="daily-box" style="padding-bottom:0">
-        <div class="daily-title">
+        <!-- <div class="daily-title">
           {{ $t('task.txt115') }} ({{ $t('task.txt4')
           }}{{ $utils.currencyType }}5000)
-        </div>
+        </div> -->
         <!-- <div class="task-info">
           <div class="task-info-icon">
             <img src="@/assets/image/otc/Group.png" alt="" />
@@ -102,9 +111,6 @@
           </div>
         </div> -->
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/home/WhatsApp@2x.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>{{ $t('task.txt13') }} WhatsApp ({{ count6 }}/1)</p>
@@ -129,9 +135,6 @@
           </div>
         </div>
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/home/Facebook@2x.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>{{ $t('task.txt13') }} Facebook ({{ count3 }}/1)</p>
@@ -157,9 +160,6 @@
         </div>
 
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/home/Telegram@2x.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>{{ $t('task.txt13') }} Telegram ({{ count4 }}/1)</p>
@@ -184,9 +184,6 @@
           </div>
         </div>
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/otc/income.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>SunPower Show</p>
@@ -210,14 +207,11 @@
             </div>
           </div>
         </div>
-        <div class="daily-title">
+        <!-- <div class="daily-title">
           {{ $t('task.txt116') }} ({{ $t('task.txt4')
           }}{{ $utils.currencyType }}8000)
-        </div>
+        </div> -->
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/home/Telegram@2x.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>{{ $t('task.txt5') }}({{ count2 }}/1)</p>
@@ -240,9 +234,6 @@
           </div>
         </div>
         <div class="task-info">
-          <div class="task-info-icon">
-            <img src="@/assets/image/home/YouTobe@2x.png" alt="" />
-          </div>
           <div class="task-info-txt-btn">
             <div class="txt-box">
               <p>{{ $t('task.txt13') }} Youtube ({{ count13 }}/1)</p>
@@ -514,6 +505,7 @@
         </div> -->
       <!-- </div> -->
     </div>
+    <sharePopup :show="showShare" @close="close" :link="link"> </sharePopup>
   </div>
 </template>
 <script>
@@ -523,6 +515,7 @@ export default {
   data() {
     return {
       statusList: [],
+      showShare: false,
 
       count1: 0,
       isAward1: false,
@@ -561,6 +554,7 @@ export default {
       count13: 0,
       isAward13: false,
       nowData: null,
+      link: '',
     }
   },
   computed: {
@@ -573,6 +567,12 @@ export default {
     this.$nextTick(() => {
       window.scrollTo(0, 0)
     })
+    if (this.userInfo && this.userInfo.username) {
+      this.link =
+        'https://m.sunpowers.online/#/invite' +
+        '?code=' +
+        this.userInfo.symbolCode
+    }
   },
   methods: {
     ...mapActions({
@@ -588,6 +588,21 @@ export default {
             active: 1,
           },
         })
+      }
+    },
+    close() {
+      this.showShare = false
+    },
+    share() {
+      let _ver = Number(localStorage.getItem('app_version') || 0)
+      if (_ver >= 103) {
+        this.showShare = true
+      } else {
+        if (window.appInterface) {
+          this.shareApp()
+        } else {
+          this.showShare = true
+        }
       }
     },
     getData() {
@@ -870,68 +885,119 @@ export default {
 <style lang="less" scoped>
 .task {
   min-height: 100%;
-  background: #fff;
+  background: url(../../assets/image/tsl/taskbg.jpg) no-repeat #ff9837;
+  background-size: 100% auto;
   position: relative;
+  padding: 0 15px 80px 15px;
+  .page-left {
+    width: 45px;
+    padding: 10px 0;
+    img {
+      width: 100%;
+    }
+  }
+  .task-tit {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .intive-btn {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    z-index: 999;
+    margin: 0 15px;
 
+    right: 0;
+    /deep/ .van-button {
+      background: #00a3fe;
+      line-height: 44px;
+      text-align: center;
+      color: #fff;
+      border-radius: 6px;
+      border: 0;
+      width: 100%;
+    }
+  }
   .task-content {
-    // padding: 130px 13px 20px 16px;
-    // position: fixed;
-    padding: 60px 16px 0 16px;
     position: relative;
     z-index: 2;
-    .intive-box {
-      background: #ffffff;
-      box-shadow: 0px 8px 32px rgba(0, 63, 121, 0.25);
-      border-radius: 16px;
-      padding: 12px;
-      margin-bottom: 32px;
-      display: flex;
-      align-items: center;
-      position: relative;
-      &::after {
-        content: '';
-        width: 82px;
-        height: 24px;
-        background: url('./../../assets/image/home/hot.png') no-repeat;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-size: cover;
-      }
-      .intive-left {
-        flex: 0 0 144px;
-        width: 144px;
-        img {
-          width: 100%;
-        }
-      }
-      .intive-right {
-        margin-top: 10px;
-        p {
-          color: #000;
-          font-size: 16px;
-          line-height: 20px;
-          text-align: center;
-          &:nth-of-type(2) {
-            margin-top: 6px;
-            color: #fe7a15;
-          }
-        }
-        .intive-btn {
-          font-weight: 500;
-          font-size: 16px;
-          text-align: center;
-          color: #fff;
-          background: linear-gradient(93.47deg, #5ebbff 2.86%, #0094ff 100%);
-          box-shadow: 0px 4px 11px -3px rgba(0, 63, 121, 0.25);
-          border-radius: 43px;
-          width: 132px;
-          height: 32px;
-          line-height: 32px;
-          margin: 14px auto 0 auto;
-        }
-      }
+    background: #ffe6cb;
+    border: 3px solid #fee799;
+    box-shadow: 3px 4px 9px 0 rgb(105 33 2 / 17%),
+      0 0 4px 0 rgb(203 149 15 / 29%);
+    border-radius: 6px;
+    padding: 50px 10px 10px 10px;
+    color: #6b4339;
+    position: relative;
+    .task-tab {
+      width: 300px;
+      height: 48px;
+      background: url('./../../assets/image/tsl/tasktit.png') no-repeat center
+        center;
+      background-size: 100% 100%;
+      position: absolute;
+      top: -18px;
+      left: 50%;
+      margin-left: -150px;
+      line-height: 48px;
+      text-align: center;
+      color: #732e07;
     }
+
+    // .intive-box {
+    //   background: #ffffff;
+    //   box-shadow: 0px 8px 32px rgba(0, 63, 121, 0.25);
+    //   border-radius: 16px;
+    //   padding: 12px;
+    //   margin-bottom: 32px;
+    //   display: flex;
+    //   align-items: center;
+    //   position: relative;
+    //   &::after {
+    //     content: '';
+    //     width: 82px;
+    //     height: 24px;
+    //     background: url('./../../assets/image/home/hot.png') no-repeat;
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     background-size: cover;
+    //   }
+    //   .intive-left {
+    //     flex: 0 0 144px;
+    //     width: 144px;
+    //     img {
+    //       width: 100%;
+    //     }
+    //   }
+    //   .intive-right {
+    //     margin-top: 10px;
+    //     p {
+    //       color: #000;
+    //       font-size: 16px;
+    //       line-height: 20px;
+    //       text-align: center;
+    //       &:nth-of-type(2) {
+    //         margin-top: 6px;
+    //         color: #fe7a15;
+    //       }
+    //     }
+    //     .intive-btn {
+    //       font-weight: 500;
+    //       font-size: 16px;
+    //       text-align: center;
+    //       color: #fff;
+    //       background: linear-gradient(93.47deg, #5ebbff 2.86%, #0094ff 100%);
+    //       box-shadow: 0px 4px 11px -3px rgba(0, 63, 121, 0.25);
+    //       border-radius: 43px;
+    //       width: 132px;
+    //       height: 32px;
+    //       line-height: 32px;
+    //       margin: 14px auto 0 auto;
+    //     }
+    //   }
+    // }
     .daily-box {
       // background: #fffeff;
       // box-shadow: 0px 3px 32px 0px rgba(0, 0, 0, 0.19);
@@ -943,21 +1009,6 @@ export default {
       //   color: #272a29;
       //   font-weight: 500;
       // }
-    }
-    .daily-title {
-      margin-bottom: 27px;
-      font-size: 18px;
-      color: #0094f6;
-      font-weight: 500;
-    }
-    .time-box {
-      margin-top: 35px;
-      .time-title {
-        font-size: 18px;
-        color: #272a29;
-        font-weight: 500;
-        margin-bottom: 30px;
-      }
     }
 
     .task-info {
@@ -976,15 +1027,15 @@ export default {
       }
       .task-info-txt-btn {
         padding-bottom: 18px;
-        border-bottom: 1px solid #f6f3f7;
+        border-bottom: 1px solid rgba(40, 48, 77, 0.1);
         display: flex;
         flex: 1;
         .txt-box {
           flex: 1;
           p {
             font-weight: 500;
-            font-size: 16px;
-            color: #000;
+            font-size: 14px;
+            color: #6b4339;
             line-height: 15px;
             &:nth-of-type(2) {
               font-weight: 500;
@@ -992,15 +1043,14 @@ export default {
               margin: 6px 0;
             }
             &:nth-of-type(3) {
-              color: #fda94f;
-              font-size: 16px;
+              color: #fd1b4b;
+              font-size: 12px;
               font-weight: 500;
             }
           }
         }
         .task-info-btn {
-          background: linear-gradient(93.47deg, #5ebbff 2.86%, #0094ff 100%);
-          box-shadow: 0px 4px 11px -3px rgba(0, 63, 121, 0.25);
+          background: linear-gradient(180deg, #d94316, #f47b57);
           border-radius: 14px;
           padding: 0 10px;
           height: 32px;
@@ -1012,8 +1062,7 @@ export default {
           font-weight: 500;
           font-size: 16px;
           &.disabled {
-            background: #cad4df;
-            box-shadow: 0px 4px 11px -3px rgba(0, 63, 121, 0.25);
+            background: rgb(138, 138, 138);
           }
         }
       }

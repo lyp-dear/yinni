@@ -1,35 +1,40 @@
 <template>
   <van-popup
     v-model="currentShow"
-    round
-    position="bottom"
     @open="open"
     @close="close"
     @click-overlay="close"
     safe-area-inset-bottom
   >
     <div class="popup-box">
-      <div v-if="showheader" class="popup-header">
-        <p>{{ $t('task.txt67') }}</p>
-        <slot name="title"></slot>
-      </div>
       <div class="popup-content" slot="content">
         <div class="share-content">
           <div class="copylink">
             <p>{{ link }}</p>
-            <div
+            <!-- <div
               class="copy-btn"
               v-clipboard:copy="coypLink"
               v-clipboard:success="copy"
             >
               <img src="@/assets/image/otc/copy.png" alt="" />
               <span> {{ $t('task.txt68') }}</span>
-            </div>
+            </div> -->
+          </div>
+          <van-button
+            class="copy-btn"
+            v-clipboard:copy="coypLink"
+            v-clipboard:success="copy"
+            >复制链接</van-button
+          >
+          <div class="copy-txt">
+            <p>现在推广</p>
+            <p>
+              复制邀请链接。 选择您要推广的平台。 粘贴并转发到您的所有社交网络。
+              当有人通过您的邀请链接成功注册时。
+              您可以在该部分查看您的促销活动的收入。 应用的“推荐收入”
+            </p>
           </div>
           <div class="share-logo">
-            <p class="bawah">
-              {{ $t('task.txt69') }}
-            </p>
             <div class="logos-share" ref="logoShare">
               <div
                 class="s-logo"
@@ -73,7 +78,6 @@
               </div>
             </div>
           </div>
-          <div class="btn-canacl" @click="close">{{ $t('dialog.txt2') }}</div>
         </div>
       </div>
     </div>

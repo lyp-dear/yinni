@@ -42,14 +42,7 @@ const routes = [
           keepAlive: false,
         },
       },
-      {
-        path: '/welfare',
-        name: 'welfare',
-        component: () => import('@/views/team'),
-        meta: {
-          title: i18n.tc('sa.txt9'),
-        },
-      },
+
       {
         path: '/my',
         name: 'my',
@@ -110,6 +103,14 @@ const routes = [
   //     keepAlive: true,
   //   },
   // },
+  {
+    path: '/welfare',
+    name: 'welfare',
+    component: () => import('@/views/team'),
+    meta: {
+      title: i18n.tc('sa.txt9'),
+    },
+  },
   {
     path: '/myTeam',
     name: 'myTeam',
