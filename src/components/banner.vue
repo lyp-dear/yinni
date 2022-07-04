@@ -43,6 +43,7 @@ export default {
   },
 }
 </script>
+
 <style lang="less" scoped>
 .banner {
   margin-bottom: 10px;
