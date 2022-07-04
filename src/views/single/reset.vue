@@ -23,24 +23,37 @@
         v-model.trim="form.username"
         v-if="true"
         type="text"
-        :placeholder="checkType ? $t('reglogin.txt2') : $t('reglogin.txt1')"
+        :placeholder="'请输入验证码'"
       ></base-send>
-      <base-input
-        v-model.trim="form.username"
-        :isError="isErrorEmail"
-        :placeholder="$t('reglogin.txt1')"
-      ></base-input>
+      <!--<base-input-->
+        <!--v-model.trim="form.username"-->
+        <!--:isError="isErrorEmail"-->
+        <!--:placeholder="$t('reglogin.txt1')"-->
+      <!--&gt;</base-input>-->
 
-      <base-code
-        ref="imgCode"
-        v-model.trim="imgCode"
-        :isError="isErrorCode"
-      ></base-code>
+      <!--<base-code-->
+        <!--ref="imgCode"-->
+        <!--v-model.trim="imgCode"-->
+        <!--:isError="isErrorCode"-->
+      <!--&gt;</base-code>-->
+      <base-input
+        v-model.trim="form.password"
+        :isError="isErrorPwd"
+        type="password"
+        :placeholder="$t('reglogin.txt4')"
+      ></base-input>
+      <base-input
+        v-model.trim="form.password2"
+        :isError="isErrorPwd"
+        type="password"
+        :placeholder="$t('reglogin.txt5')"
+      ></base-input>
       <div class="btn-wrap">
         <base-btn
           :btnTitle="$t('reset.txt4')"
-          :disabled="disabled"
+          :disabled="false"
           @btnClick="btnClick"
+          :isSelect="false"
         ></base-btn>
       </div>
     </div>
@@ -156,3 +169,26 @@ export default {
   },
 }
 </script>
+<style lang="less" scoped>
+  .base-input{
+    background-image: linear-gradient(180deg,#002962,#00376a);
+    border: 1px solid #005983;
+    border-radius: 6px;
+    padding-right: 0px;
+    .input-box{
+      display: flex;
+      align-items: center;
+      img{
+        display: block;
+        width: 19px;
+        height: 19px;
+      }
+      input{
+        font-size: 17px;
+        color: #fff;
+        font-family: inherit;
+        font-weight: bold;
+      }
+    }
+  }
+</style>

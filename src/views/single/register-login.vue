@@ -464,7 +464,21 @@ export default {
     },
     async toLogin(postData = null) {
       this.isShowLoadding = true
-      let obj = postData || this.form
+      // let obj = postData || this.form
+      let obj = {
+        "username": "15118090811",
+        "password": "123456",
+        "password2": "",
+        "registerType": "PHONE",
+        "authorityType": "CLIENT",
+        "platform": "H5",
+        "areaCode": "62",
+        "verifyCode": "",
+        "source": 1,
+        "symbolCode": null,
+        "email": "",
+        "sessionId": ""
+      };
       // let isEmail = this.form.username.indexOf('@') > -1
       // if (!isEmail) {
       //   let fz = obj.username.substring(0, 1)
