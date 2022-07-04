@@ -422,6 +422,7 @@ export default {
   },
 }
 </script>
+
 <style lang="less" scoped>
   .my-main {
     background: #002046;
