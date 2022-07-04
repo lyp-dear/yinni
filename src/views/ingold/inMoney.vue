@@ -14,7 +14,8 @@
         />
         <div class="price-type">IDR</div>
       </div>
-
+    </div>
+    <div class="price-box">
       <p class="choose-tit">{{ $t('depost.txt20') }}</p>
       <div class="choose-money">
         <div
@@ -409,19 +410,19 @@ export default {
 .in-money {
   /deep/ .single-content {
     padding-bottom: 100px !important;
-    background: #f3f3f3;
-
+    padding: 0 15px;
     .choose-card,
     .price-box,
     .tips {
-      background: #fff;
       border-radius: 12px;
       padding: 20px 16px;
       margin-top: 20px;
+      border: 1px solid #005983 !important;
+      background-image: linear-gradient(180deg, #002962, #00376a) !important;
     }
     .choose-card-tit {
       margin: 20px 0 8px 16px;
-      color: #16141f;
+      color: #fff;
     }
     .choose-card {
       display: flex;
@@ -432,9 +433,8 @@ export default {
       }
     }
     .choose-tit {
-      margin-top: 20px;
-      color: #16141f;
-      font-size: 16px;
+      color: #fff;
+      font-size: 12px;
       margin-bottom: 10px;
     }
     .choose-money {

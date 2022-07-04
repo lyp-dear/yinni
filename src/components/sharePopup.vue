@@ -42,7 +42,7 @@
                 :data-title="shareTitle"
                 :data-url="link"
               >
-                <img src="@/assets/image/otc/logo-wa.png" alt="" />
+                <img src="@/assets/image/xapp/logo-wa.png" alt="" />
               </div>
 
               <!-- <div class="s-logo">
@@ -66,7 +66,7 @@
                 :data-title="shareTitle"
                 :data-url="link"
               >
-                <img src="@/assets/image/otc/logo-fb.png" alt="" />
+                <img src="@/assets/image/xapp/logo-fb.png" alt="" />
               </div>
               <div
                 class="s-logo"
@@ -74,7 +74,7 @@
                 :data-title="shareTitle"
                 :data-url="link"
               >
-                <img src="@/assets/image/otc/logo-tg.png" alt="" />
+                <img src="@/assets/image/xapp/logo-tg.png" alt="" />
               </div>
             </div>
           </div>
