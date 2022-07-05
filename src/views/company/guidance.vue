@@ -1,7 +1,7 @@
 <template>
   <modMain :title="$t('index.txt5')" class="about-otc">
     <div class="otc-txt">
-      <h2>1: How to become an SunPower merchant</h2>
+      <h2>1: How to become an Tslenergy merchant</h2>
 
       <div class="otc-banner">
         <div><img src="@/assets/image/otc/otc1.jpg" alt="" /></div>
@@ -10,10 +10,11 @@
         <div><img src="@/assets/image/otc/otc4.jpg" alt="" /></div>
       </div>
       <p>
-        SunPower cooperates with well-known digital currency exchanges (Binance,
-        Coinbase, SunPower, Wazirx, AAX), with an average daily exchange volume
-        of 10M+USDT. As a professional team, SunPower provides reliable, safe
-        and fast exchange transactions for every customer service. <br /><br />
+        Tslenergy cooperates with well-known digital currency exchanges
+        (Binance, Coinbase, Tslenergy, Wazirx, AAX), with an average daily
+        exchange volume of 10M+USDT. As a professional team, Tslenergy provides
+        reliable, safe and fast exchange transactions for every customer
+        service. <br /><br />
       </p>
       <div class="otc-banner merchat-banner">
         <div><img src="@/assets/image/otc/merchant1.jpg" alt="" /></div>
@@ -23,26 +24,26 @@
         <div><img src="@/assets/image/otc/merchant5.jpg" alt="" /></div>
       </div>
       <p>
-        SunPower provides users with different levels of merchant choices,
-        namely SunPower junior merchants and SunPower ☆One-star merchants,
-        SunPower OTC ☆☆Two-star merchants, SunPower ☆☆☆Samsung merchants,
-        SunPower ☆☆☆☆Four-star merchants, SunPower ☆☆☆☆☆Five-star merchants.
+        Tslenergy provides users with different levels of merchant choices,
+        namely Tslenergy junior merchants and Tslenergy ☆One-star merchants,
+        Tslenergy OTC ☆☆Two-star merchants, Tslenergy ☆☆☆Samsung merchants,
+        Tslenergy ☆☆☆☆Four-star merchants, Tslenergy ☆☆☆☆☆Five-star merchants.
         <br /><br />
-        Users register SunPower to become SunPower junior merchants. The pledge
-        deposit is presented by SunPower. After the shortest pledge time is
-        reached, the user can choose to release the pledge, and the pledge
+        Users register Tslenergy to become Tslenergy junior merchants. The
+        pledge deposit is presented by Tslenergy. After the shortest pledge time
+        is reached, the user can choose to release the pledge, and the pledge
         deposit will be returned to the user account. <br /><br />
-        SunPower junior merchants can obtain redemption opportunities through
+        Tslenergy junior merchants can obtain redemption opportunities through
         U-Task. <br /><br />
         Every U-Task task is reviewed by the system. After the review is passed,
-        you can get a redemption opportunity, SunPower junior merchants can get
+        you can get a redemption opportunity, Tslenergy junior merchants can get
         the exchange income after completing the exchange.
         <br /><br />
-        SunPower star-rated merchants are one-star merchants, two-star
-        merchants, three-star merchants, four-star merchants, and SunPower
+        Tslenergy star-rated merchants are one-star merchants, two-star
+        merchants, three-star merchants, four-star merchants, and Tslenergy
         five-star merchants. <br />
-        After SunPower users complete the corresponding pledge, they can become
-        SunPower For OTC star-rated merchants, each level of merchants has 3
+        After Tslenergy users complete the corresponding pledge, they can become
+        Tslenergy For OTC star-rated merchants, each level of merchants has 3
         redemption opportunities per day. Merchants of different levels have
         different pledge deposits, different single redemption limits, and
         different single redemption benefits. The higher the level of the
@@ -53,11 +54,11 @@
         released, and the pledge deposit amount will be returned to the user
         account.
         <br />
-        Every SunPower user can pledge SunPower multiple times For OTC
+        Every Tslenergy user can pledge Tslenergy multiple times For OTC
         star-rated merchants, the more pledges, the more exchange opportunities
-        they get every day, and the higher the income. All SunPower Every time
+        they get every day, and the higher the income. All Tslenergy Every time
         OTC star-rated merchants redeem the income, they reach the user account
-        in real time, and SunPower supports users to withdraw cash at any time.
+        in real time, and Tslenergy supports users to withdraw cash at any time.
       </p>
     </div>
 
@@ -68,19 +69,19 @@
         <div><img src="@/assets/image/otc/otc11.jpg" alt="" /></div>
       </div>
       <p>
-        All SunPower merchants can view all pledges and daily redemption
+        All Tslenergy merchants can view all pledges and daily redemption
         opportunities on the redemption interface. <br />
-        Click on the opportunity order you want to redeem, SunPower system will
+        Click on the opportunity order you want to redeem, Tslenergy system will
         automatically allocate the corresponding income exchange merchant to
-        complete the redemption, SunPower merchants can also choose the
+        complete the redemption, Tslenergy merchants can also choose the
         redemption merchants they want to redeem for. <br />
-        SunPower All OTC merchants' opportunity orders to be redeemed will be
+        Tslenergy All OTC merchants' opportunity orders to be redeemed will be
         displayed in the redemption merchant's redemption order, and the
-        SunPower system will complete the redemption based on factors such as
+        Tslenergy system will complete the redemption based on factors such as
         merchant level. <br /><br />
-        SunPower cooperates with well-known digital currency exchanges, and the
+        Tslenergy cooperates with well-known digital currency exchanges, and the
         average daily exchange volume is 10M+USDT. As a professional team,
-        SunPower provides reliable, safe and fast exchange transaction services
+        Tslenergy provides reliable, safe and fast exchange transaction services
         for every customer.
       </p>
     </div>
@@ -90,31 +91,31 @@
 
       <img src="@/assets/image/otc/otc12.jpg" alt="" />
       <p>
-        Users register SunPower to become SunPower junior merchants. SunPower
+        Users register Tslenergy to become Tslenergy junior merchants. Tslenergy
         provides U-Task services to merchants of all levels. <br />
         U-Task provides WhatsApp sharing, Telegram sharing, FaceBook sharing,
         and YouTube sharing. <br />
-        Every SunPower user can complete all sharing tasks provided by U-Task
-        every day, and each sharing will be audited by the SunPower system.
-        After passing the audit, you can get SunPower Redemption opportunities
+        Every Tslenergy user can complete all sharing tasks provided by U-Task
+        every day, and each sharing will be audited by the Tslenergy system.
+        After passing the audit, you can get Tslenergy Redemption opportunities
         for OTC junior merchants. <br />
-        Get SunPower After the OTC primary merchants exchange the opportunity,
+        Get Tslenergy After the OTC primary merchants exchange the opportunity,
         you can see the corresponding exchange opportunity on the OTC interface,
         and you can get the exchange income after completing the exchange.
         <br />
-        SunPower sets corresponding rules for U-Task tasks. Using U-Task with
+        Tslenergy sets corresponding rules for U-Task tasks. Using U-Task with
         high quality can get exchange opportunities faster.
       </p>
     </div>
     <div class="otc-txt">
-      <h2>4: Invite friends and use SunPower together to earn money</h2>
+      <h2>4: Invite friends and use Tslenergy together to earn money</h2>
       <img src="@/assets/image/otc/power5.jpg" alt="" />
       <p>
-        Together with your friends, use SunPower to exchange for income. As a
-        global exchange arbitrage platform, SunPower encourages more users to
+        Together with your friends, use Tslenergy to exchange for income. As a
+        global exchange arbitrage platform, Tslenergy encourages more users to
         join, improves the efficiency of capital utilization, and earns more
         income. Send your own invitation link to share with your friends. For
-        every real and effective invitation, SunPower will give generous
+        every real and effective invitation, Tslenergy will give generous
         rewards.
         <br /><br />
         Reward 4INR for every friend invited<br />

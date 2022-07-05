@@ -85,7 +85,7 @@ export default {
       this.getData()
     }
     this.link =
-      'https://in.sunpoweronline.live/#/invite' +
+      'https://in.Tslenergyonline.live/#/invite' +
       '?code=' +
       this.userInfo.symbolCode
   },

@@ -13,16 +13,13 @@
       <p>
         {{ $t('task.txt118') }}
       </p>
-      <p style="color:red; margin-top:10px">
-        {{ $t('task.txt119') }}
-      </p>
       <div class="upload-group">
         <van-uploader
           v-model="fileList"
           :after-read="afterRead"
           :deletable="false"
           accept="image/*"
-          max-count="4"
+          max-count="1"
         />
       </div>
       <p class="error" v-if="showError == false">
@@ -38,7 +35,7 @@
       @btnClick="share()"
     ></base-btn>
     <sharePopup :show="showShare" @close="close" :link="link"> </sharePopup>
-    <service></service>
+    <!-- <service></service> -->
     <van-image-preview v-model="showImg" :images="images" closeable>
     </van-image-preview>
   </modMain>
@@ -64,9 +61,7 @@ export default {
   },
   mounted() {
     this.link =
-      'https://m.sunpowers.online/#/invite' +
-      '?code=' +
-      this.userInfo.symbolCode
+      'https://m.ustslenergy.com/#/invite' + '?code=' + this.userInfo.symbolCode
     this.getLast()
   },
   methods: {
@@ -190,23 +185,23 @@ export default {
 
 <style lang="less" scoped>
 .share-group {
-  background: #e5e5e5;
   padding: 40px 10px;
   .error {
-    color: red !important;
+    color: #fadda7 !important;
     font-size: 12px;
     padding-top: 10px;
     text-align: center;
   }
   .upload-group-box {
     margin-top: 20px;
-    background: #ffffff;
+    border: 1px solid #005983 !important;
+    background-image: linear-gradient(180deg, #002962, #00376a) !important;
     border-radius: 15px;
     padding: 25px 15px;
     p {
       font-size: 12px;
       line-height: 17px;
-      color: #191b1d;
+      color: #fff;
       &:nth-of-type(2) {
         margin-top: 20px;
       }

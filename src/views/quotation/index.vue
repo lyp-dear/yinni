@@ -5,7 +5,7 @@
         <div class="downarea-logo">
           <img src="@/assets/image/sun/logo.png" alt="" />
         </div>
-        <div class="downarea-name">sunpower.link</div>
+        <div class="downarea-name">Tslenergy.link</div>
         <div class="downarea-btn">
           Download
         </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="product-txt">
           <p>
-            Pembangkitan energi: <span>{{ item.specification }}kWh</span>
+            Kekuasaan: <span>{{ item.specification }}kWh</span>
           </p>
           <p>
             {{ $t('product.txt22') }}:

@@ -84,9 +84,7 @@ export default {
       this.getData()
     }
     this.link =
-      'https://m.sunpowers.online/#/invite' +
-      '?code=' +
-      this.userInfo.symbolCode
+      'https://m.ustslenergy.com/#/invite' + '?code=' + this.userInfo.symbolCode
   },
   methods: {
     ...mapActions({

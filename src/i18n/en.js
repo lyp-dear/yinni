@@ -10,13 +10,13 @@ export default {
 
   index: {
     txt1: 'Home',
-    txt2: 'About SunPower',
+    txt2: 'About Tslenergy',
     txt3: 'About OTC',
     txt4: 'OTC Description',
     txt5: 'Get Income',
     txt6: 'Become an exchange merchant',
     txt7: 'coming soon',
-    txt8: 'SunPower',
+    txt8: 'Tslenergy',
     txt9: 'Recommend',
     txt11: 'Details',
     txt12: 'Amount:',
@@ -34,18 +34,18 @@ export default {
     txt24: 'Diversity of payment methods',
     txt25: 'Legal compliance',
     txt26: 'Platform is guaranteed',
-    txt27: 'How SunPower works',
-    txt28: 'Register as a SunPower user',
+    txt27: 'How Tslenergy works',
+    txt28: 'Register as a Tslenergy user',
     txt29: 'Register by email or mobile number',
     txt30: 'Complete pledge',
-    txt31: 'Complete the pledge and become a SunPower merchant',
+    txt31: 'Complete the pledge and become a Tslenergy merchant',
     txt32: 'Daily exchange',
-    txt33: 'SunPower has many redemption orders, simple and fast',
+    txt33: 'Tslenergy has many redemption orders, simple and fast',
     txt34: 'Get income',
     txt35:
-      'SunPower merchants, every time the exchange is completed, real-time settlement',
+      'Tslenergy merchants, every time the exchange is completed, real-time settlement',
     txt36: 'Home',
-    txt37: 'SunPower registration rewards',
+    txt37: 'Tslenergy registration rewards',
     txt38: 'Exchange',
     txt39: 'U-Task',
     txt40: 'Me',
@@ -56,11 +56,11 @@ export default {
     txt45: '',
     txt46: [
       '1: The job is simple and the income is considerable;',
-      '2: Sign up and get ₹500 free, become a SunPower junior merchant;',
+      '2: Sign up and get ₹500 free, become a Tslenergy junior merchant;',
       '3: Get 1 OTC primary merchant redemption opportunity every day, with a minimum of ₹3 free redemption income;',
-      '4: Join the SunPower official group, reward ₹50;',
-      '5: Invite friends to exchange arbitrage at SunPower to get more benefits;',
-      '6: Share SunPower, get ₹12 per day;',
+      '4: Join the Tslenergy official group, reward ₹50;',
+      '5: Invite friends to exchange arbitrage at Tslenergy to get more benefits;',
+      '6: Share Tslenergy, get ₹12 per day;',
       '7: For more exchange operations, you can check the guide video to understand;',
     ],
     txt47: 'Merchant',
@@ -86,20 +86,20 @@ export default {
     txt17: 'Estimated Total:',
     txt18: 'Pledge Start Time:',
     txt19: 'Confirm pledge',
-    txt20: 'SunPower merchant rights introduction',
+    txt20: 'Tslenergy merchant rights introduction',
     txt21: [
-      'SunPower junior merchants, register for SunPower and become a SunPower user to obtain the junior merchant qualification. <br/> SunPower primary merchant pledge deposit amount is 500INR, which is presented by SunPower. The pledge is for a minimum period of 60 days. After 60 days, you can choose to release the pledge, and the pledge deposit will be returned to the SunPower user account.',
-      'SunPower ☆One-star merchants, register for SunPower, and complete the one-star merchant promise. Each SunPower user can pledge multiple times to obtain SunPower☆one-star merchant qualification. SunPower ☆One-star merchants pledge ₹1000, and the minimum pledge period is 60 days. After 60 days, you can choose to release the pledge or continue the pledge; the pledge deposit will be returned to the SunPower user account after the pledge is released. SunPower ☆One-star merchants can get 3 redemption opportunities every day. The single redemption limit is ₹1000. The minimum single redemption rate is 1.5% and the maximum is 2%; the daily comprehensive rate of return is at least 4.5% and the maximum is 6.%; the minimum Daily Income is ₹45, and the maximum Daily Income is ₹60. The estimated total exchange income is ₹3600.',
-      'SunPower ☆☆Two-star merchants, register for SunPower, complete the pledge of two-star merchants, each SunPower user can pledge multiple times to obtain SunPower ☆☆Two-star merchant qualification. SunPower ☆☆The pledge deposit amount for two-star merchants is ₹10000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge, or you can choose to continue the pledge; the pledge deposit will be returned to the SunPower user account after the pledge is released. SunPower ☆☆Two-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹10000. The single redemption rate is at least 2% and the highest is 2.5%. The daily comprehensive rate of return is as low as 6% and as high as 7.5. %; The minimum Daily Income is ₹600, and the maximum Daily Income is ₹750. The estimated total exchange income is ₹45000.',
-      'SunPower ☆☆☆Samsung merchants, register for SunPower, and complete the pledge of Samsung merchants. Each SunPower user can pledge multiple times to obtain the qualification of SunPower ☆☆☆Samsung merchants. SunPower ☆☆☆Samsung merchants’ pledge deposit amount is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge, or you can choose to continue the pledge; the pledge deposit will be returned to the SunPower user account after the pledge is released. SunPower ☆☆☆Samsung merchants can get 3 redemption opportunities per day. The single redemption limit is ₹50000. The single redemption rate is at least 2.5% and the highest is 3%; the daily comprehensive rate of return is at least 7.5% and the highest is 9%; the lowest single-day income is ₹3750, and the highest single-day income is ₹4500. The estimated total exchange income is ₹270,000.',
-      'SunPower ☆☆☆☆Four-star merchants, register for SunPower, and complete the pledge of Samsung merchants. Each SunPower user can pledge multiple times to obtain SunPower ☆☆☆Four-star merchant qualification. SunPower ☆☆☆☆The pledge deposit for four-star merchants is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge or choose to continue the pledge; the pledge deposit will be returned to the SunPower user account after the pledge is released. SunPower ☆☆☆☆Four-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹100000. The single redemption rate is as low as 3% and the maximum is 3.5%. The daily comprehensive rate of return is as low as 9%. The maximum is 11.5%; the minimum single-day income is ₹9000, and the maximum single-day income is ₹10500. The estimated total exchange income is ₹630000.',
-      'SunPower ☆☆☆☆☆Five-star merchants, register for SunPower, and complete the pledge of Samsung merchants. Each SunPower user can pledge multiple times to obtain SunPower ☆☆☆ four-star merchant qualification. SunPower ☆☆☆☆☆The pledge deposit amount for five-star merchants is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge or continue the pledge; when the pledge is released, the pledge deposit will be returned to the SunPower user account. SunPower ☆☆☆☆☆ Five-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹200,000. The single redemption rate is at least 3.5% and the highest is 4%; the daily comprehensive rate of return is at least 11.5%. The maximum is 12%; the minimum single-day income is ₹22500, and the maximum single-day income is ₹2,4000. The estimated total exchange income is ₹1,440,000. <br/><br/>SunPower ☆☆☆☆☆ Five-star merchants, there is no limit on the number of pledge applications for SunPower users, but SunPower ☆☆☆☆☆ Five-star merchants have a limited number of pledge applications per day, and SunPower will exchange them according to the merchant’s The total amount of exchange is adjusted SunPower ☆☆☆☆☆ The number of pledge applications for five-star merchants.',
+      'Tslenergy junior merchants, register for Tslenergy and become a Tslenergy user to obtain the junior merchant qualification. <br/> Tslenergy primary merchant pledge deposit amount is 500INR, which is presented by Tslenergy. The pledge is for a minimum period of 60 days. After 60 days, you can choose to release the pledge, and the pledge deposit will be returned to the Tslenergy user account.',
+      'Tslenergy ☆One-star merchants, register for Tslenergy, and complete the one-star merchant promise. Each Tslenergy user can pledge multiple times to obtain Tslenergy☆one-star merchant qualification. Tslenergy ☆One-star merchants pledge ₹1000, and the minimum pledge period is 60 days. After 60 days, you can choose to release the pledge or continue the pledge; the pledge deposit will be returned to the Tslenergy user account after the pledge is released. Tslenergy ☆One-star merchants can get 3 redemption opportunities every day. The single redemption limit is ₹1000. The minimum single redemption rate is 1.5% and the maximum is 2%; the daily comprehensive rate of return is at least 4.5% and the maximum is 6.%; the minimum Daily Income is ₹45, and the maximum Daily Income is ₹60. The estimated total exchange income is ₹3600.',
+      'Tslenergy ☆☆Two-star merchants, register for Tslenergy, complete the pledge of two-star merchants, each Tslenergy user can pledge multiple times to obtain Tslenergy ☆☆Two-star merchant qualification. Tslenergy ☆☆The pledge deposit amount for two-star merchants is ₹10000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge, or you can choose to continue the pledge; the pledge deposit will be returned to the Tslenergy user account after the pledge is released. Tslenergy ☆☆Two-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹10000. The single redemption rate is at least 2% and the highest is 2.5%. The daily comprehensive rate of return is as low as 6% and as high as 7.5. %; The minimum Daily Income is ₹600, and the maximum Daily Income is ₹750. The estimated total exchange income is ₹45000.',
+      'Tslenergy ☆☆☆Samsung merchants, register for Tslenergy, and complete the pledge of Samsung merchants. Each Tslenergy user can pledge multiple times to obtain the qualification of Tslenergy ☆☆☆Samsung merchants. Tslenergy ☆☆☆Samsung merchants’ pledge deposit amount is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge, or you can choose to continue the pledge; the pledge deposit will be returned to the Tslenergy user account after the pledge is released. Tslenergy ☆☆☆Samsung merchants can get 3 redemption opportunities per day. The single redemption limit is ₹50000. The single redemption rate is at least 2.5% and the highest is 3%; the daily comprehensive rate of return is at least 7.5% and the highest is 9%; the lowest single-day income is ₹3750, and the highest single-day income is ₹4500. The estimated total exchange income is ₹270,000.',
+      'Tslenergy ☆☆☆☆Four-star merchants, register for Tslenergy, and complete the pledge of Samsung merchants. Each Tslenergy user can pledge multiple times to obtain Tslenergy ☆☆☆Four-star merchant qualification. Tslenergy ☆☆☆☆The pledge deposit for four-star merchants is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge or choose to continue the pledge; the pledge deposit will be returned to the Tslenergy user account after the pledge is released. Tslenergy ☆☆☆☆Four-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹100000. The single redemption rate is as low as 3% and the maximum is 3.5%. The daily comprehensive rate of return is as low as 9%. The maximum is 11.5%; the minimum single-day income is ₹9000, and the maximum single-day income is ₹10500. The estimated total exchange income is ₹630000.',
+      'Tslenergy ☆☆☆☆☆Five-star merchants, register for Tslenergy, and complete the pledge of Samsung merchants. Each Tslenergy user can pledge multiple times to obtain Tslenergy ☆☆☆ four-star merchant qualification. Tslenergy ☆☆☆☆☆The pledge deposit amount for five-star merchants is ₹50,000, and the shortest pledge period is 60 days. After 60 days, you can choose to release the pledge or continue the pledge; when the pledge is released, the pledge deposit will be returned to the Tslenergy user account. Tslenergy ☆☆☆☆☆ Five-star merchants can get 3 redemption opportunities per day. The single redemption limit is ₹200,000. The single redemption rate is at least 3.5% and the highest is 4%; the daily comprehensive rate of return is at least 11.5%. The maximum is 12%; the minimum single-day income is ₹22500, and the maximum single-day income is ₹2,4000. The estimated total exchange income is ₹1,440,000. <br/><br/>Tslenergy ☆☆☆☆☆ Five-star merchants, there is no limit on the number of pledge applications for Tslenergy users, but Tslenergy ☆☆☆☆☆ Five-star merchants have a limited number of pledge applications per day, and Tslenergy will exchange them according to the merchant’s The total amount of exchange is adjusted Tslenergy ☆☆☆☆☆ The number of pledge applications for five-star merchants.',
     ],
     txt22: 'Release pledge',
     txt23: 'Confirm pledge?',
     txt24:
       'The minimum pledge time for OTC merchants is 60 days, and it is currently not expired',
-    txt25: 'SunPower users choose',
+    txt25: 'Tslenergy users choose',
   },
   exchange: {
     txt1: 'Fast',
@@ -131,11 +131,11 @@ export default {
     txt33: 'Exchange Successfully',
     txt34: 'Junior Business',
     txt35:
-      'As a digital exchange exchange arbitrage team, SunPower cooperates with world-renowned exchanges to ensure that it provides every customer with stable, safe and fast exchange trading services and income.',
+      'As a digital exchange exchange arbitrage team, Tslenergy cooperates with world-renowned exchanges to ensure that it provides every customer with stable, safe and fast exchange trading services and income.',
     txt36: 'Number of exchanges available today:',
     txt37: 'Become more star OTC merchants and get more revenue every day',
     txt38: 'Pledged',
-    txt39: ['SunPower', ' Exclusive redemption for', 'merchants'],
+    txt39: ['Tslenergy', ' Exclusive redemption for', 'merchants'],
     txt41: 'Exchange completed',
     txt42:
       'Get exchange opportunities through U-Task or upgrade merchants to get more exchange income',
@@ -147,19 +147,19 @@ export default {
     txt3: 'Every time a friend is invited',
     txt4: 'Reward+',
     txt5: 'Telegram official group',
-    txt6: 'Join the official Telegram group and receive SunPower benefits',
+    txt6: 'Join the official Telegram group and receive Tslenergy benefits',
     txt7: 'Share',
-    txt9: 'Login SunPower every day',
+    txt9: 'Login Tslenergy every day',
     txt10: 'Subscribe to Telegram channel',
-    txt11: 'Subscribe to SunPower Telegram channel, upload screenshots',
+    txt11: 'Subscribe to Tslenergy Telegram channel, upload screenshots',
     txt12: 'Join',
     txt13: 'Share',
-    txt14: 'Send SunPower to a friend or friend group',
+    txt14: 'Send Tslenergy to a friend or friend group',
     txt15: ['Share', 'Screenshot'],
     txt16: ['Save', 'Take a screenshot and share, upload a screenshot'],
-    txt17: '1: Join SunPower Telegram official group',
+    txt17: '1: Join Tslenergy Telegram official group',
     txt18: '2: Save and upload screenshots',
-    txt19: '1: Subscribe to SunPower Telegram official channel',
+    txt19: '1: Subscribe to Tslenergy Telegram official channel',
     txt20:
       '2: Upload screenshot record to receive reward: ₹5, each user is limited to 1 time',
     txt21: [
@@ -170,9 +170,9 @@ export default {
     txt23:
       'After the sharing is successful, save the screenshot and save the successfully shared picture',
     txt24: 'Invite',
-    txt25: '3: Each SunPower user is limited to receive once',
+    txt25: '3: Each Tslenergy user is limited to receive once',
     txt26: 'Share a screenshot of contract revenue, upload a screenshot',
-    txt27: 'Make an SunPower promotional video and upload it to YouTube',
+    txt27: 'Make an Tslenergy promotional video and upload it to YouTube',
     txt28:
       'Reward: One exchange opportunity for junior merchants, at least +₹3',
     txt37: 'Login',
@@ -194,7 +194,7 @@ export default {
     txt53: 'Next upload time',
     txt54: 'Completed',
     txt55:
-      'Use ShareChat to share the SunPower application to friends or send to groups.',
+      'Use ShareChat to share the Tslenergy application to friends or send to groups.',
     txt56: 'Take a screenshot and save the sharing record.',
     txt57: 'Upload different ShareChat sharing records.',
     txt58: 'Rewards will be issued after system review.',
@@ -206,8 +206,8 @@ export default {
     txt64: 'Third upload',
     txt65: 'Fourth upload',
     txt66:
-      'The operation is simple and the benefits are considerable. Register and get ₹500 for free. Become a SunPower junior merchant, enter the Telegram group for ₹50, share with you every day and get ₹34, and invite people to register to get ₹4 per person. Invite friends to carry out arbitrage transactions on SunPower to earn profits, up to ₹30,000 per day. Any time, any place, any equipment, any time, any place!',
-    txt67: 'SunPower merchant-specific invitation link',
+      'The operation is simple and the benefits are considerable. Register and get ₹500 for free. Become a Tslenergy junior merchant, enter the Telegram group for ₹50, share with you every day and get ₹34, and invite people to register to get ₹4 per person. Invite friends to carry out arbitrage transactions on Tslenergy to earn profits, up to ₹30,000 per day. Any time, any place, any equipment, any time, any place!',
+    txt67: 'Tslenergy merchant-specific invitation link',
     txt68: 'Copy',
     txt69:
       'Copy the link, open the mobile social software, and share with friends',
@@ -224,8 +224,8 @@ export default {
     txt78:
       "Invite a friend to invest to get 5% of the friend's income, and 5% of the friend's investment amount",
     txt79: 'Click to upload picture',
-    txt80: 'Join SunPower Telegram official group',
-    txt81: 'Join SunPower Telegram official channel',
+    txt80: 'Join Tslenergy Telegram official group',
+    txt81: 'Join Tslenergy Telegram official channel',
     txt82: 'Deposit',
     txt83: 'Withdrawal',
     txt84: 'Save screenshot of contract revenue',
@@ -237,11 +237,11 @@ export default {
     txt90: 'Click on the picture to view an example',
     txt91:
       'The sharing link has been copied successfully, you can go to paste and share',
-    txt92: 'Record SunPower use video',
-    txt93: 'The video contains SunPower operation and introduction',
+    txt92: 'Record Tslenergy use video',
+    txt93: 'The video contains Tslenergy operation and introduction',
     txt94: 'Upload the video to your YouTobe channel',
     txt95:
-      'Make an SunPower promotional video, upload it to the YouTobe channel, and get an opportunity to redeem an SunPower primary business opportunity, which will take effect after the system is approved, and the minimum income is  ₹3',
+      'Make an Tslenergy promotional video, upload it to the YouTobe channel, and get an opportunity to redeem an Tslenergy primary business opportunity, which will take effect after the system is approved, and the minimum income is  ₹3',
     txt96: 'Please enter the URL of the YouTube video link you made',
     txt97: 'Please enter a YouTube video link',
     txt98: 'Please fill in the correct share address',
@@ -251,11 +251,11 @@ export default {
     txt102: 'Click to view and share sample image',
     txt103: [
       'Use',
-      'to share SunPower, and invite friends to redeem together to earn money.',
+      'to share Tslenergy, and invite friends to redeem together to earn money.',
     ],
     txt104: [
       'Use ',
-      ' to share SunPower with friends or share to your own ',
+      ' to share Tslenergy with friends or share to your own ',
       ' group, upload your sharing screenshot, after the system review, reward +₹3.',
     ],
     txt105: 'Example',
@@ -263,24 +263,24 @@ export default {
     txt106: 'Every real invitation, reward ₹4',
     txt107: 'Invitation rules:',
     txt108: [
-      '1: SunPower gives generous rewards to inviters. ',
+      '1: Tslenergy gives generous rewards to inviters. ',
       '2: A true and effective invitation, for every friend invited, ₹4 will be rewarded. ',
-      '3: SunPower rewards the inviter with a 2% deposit. ',
-      '4: SunPower gives the inviter a 5% single redemption reward. ',
+      '3: Tslenergy rewards the inviter with a 2% deposit. ',
+      '4: Tslenergy gives the inviter a 5% single redemption reward. ',
     ],
     txt109: 'Tips:',
     txt110: [
-      '1: SunPower, as a global exchange arbitrage platform, encourages more users to join us to improve capital utilization efficiency and arbitrage returns. ',
-      "2: The SunPower system will identify the authenticity of the user based on each user's login IP, login time, sharing status, etc. ",
-      '3: The SunPower system will strictly review the authenticity of all users, and only genuine and valid invitations will be rewarded by SunPower. ',
-      '4: The SunPower system will review each invitation, and the real invitation will receive the invitation reward within 24 hours. ',
+      '1: Tslenergy, as a global exchange arbitrage platform, encourages more users to join us to improve capital utilization efficiency and arbitrage returns. ',
+      "2: The Tslenergy system will identify the authenticity of the user based on each user's login IP, login time, sharing status, etc. ",
+      '3: The Tslenergy system will strictly review the authenticity of all users, and only genuine and valid invitations will be rewarded by Tslenergy. ',
+      '4: The Tslenergy system will review each invitation, and the real invitation will receive the invitation reward within 24 hours. ',
     ],
     txt111: 'Join Telegram group',
     txt112:
-      'Join SunPower group, reward ₹50 SunPower community members for sharing, platform reward activities, not to be missed',
+      'Join Tslenergy group, reward ₹50 Tslenergy community members for sharing, platform reward activities, not to be missed',
     txt113: 'Telegram group',
     txt114:
-      'Produce SunPower promotional video, upload it to YouTobe channel, and take effect after the system is approved, reward ₹10',
+      'Produce Tslenergy promotional video, upload it to YouTobe channel, and take effect after the system is approved, reward ₹10',
     txt115: 'Daily task',
     txt116: 'Urofit rewards',
   },
@@ -332,7 +332,7 @@ export default {
     txt5: 'Confirm password',
     txt6: 'Please enter the verification code',
     txt7: 'register',
-    txt8: '"SunPower User Terms of Service"',
+    txt8: '"Tslenergy User Terms of Service"',
     txt9: 'Forgot your password?',
     txt10: 'Customer Service',
     txt11: 'Group',
@@ -449,14 +449,14 @@ export default {
     txt12:
       'Please follow the interface operation guidelines to operate correctly',
     txt13:
-      'SunPower cooperates with commercial banks and has a complete fund guarantee mechanism. All deposits will reach your account within 10 minutes. Please make sure that the account information is correct.',
+      'Tslenergy cooperates with commercial banks and has a complete fund guarantee mechanism. All deposits will reach your account within 10 minutes. Please make sure that the account information is correct.',
     txt14: 'Click to withdraw',
     txt15:
       'Enter the withdrawal amount, select the bank card and withdrawal method',
     txt16:
       'Click to withdraw and wait for the system review to complete the release',
     txt17:
-      'SunPower cooperates with commercial banks and has a complete fund guarantee mechanism. All withdrawal requests will arrive in your account within one day. Please ensure that the withdrawal account information is correct',
+      'Tslenergy cooperates with commercial banks and has a complete fund guarantee mechanism. All withdrawal requests will arrive in your account within one day. Please ensure that the withdrawal account information is correct',
 
     txt22: 'Please fill in your comments',
     txt23: 'Submitted successfully',
@@ -464,23 +464,23 @@ export default {
     txt25: 'Please submit a description of the error! ',
     txt26: 'Please enter your message',
 
-    txt27: 'U-Task helps every SunPower user get more arbitrage income',
+    txt27: 'U-Task helps every Tslenergy user get more arbitrage income',
     txt28:
-      'Simple operation and considerable income. Register to become an SunPower junior merchant, and SunPower will give you 500INR as a pledge deposit. SunPower junior merchants can get redemption opportunities through U-Task, and the minimum income for each redemption is 3INR. ',
+      'Simple operation and considerable income. Register to become an Tslenergy junior merchant, and Tslenergy will give you 500INR as a pledge deposit. Tslenergy junior merchants can get redemption opportunities through U-Task, and the minimum income for each redemption is 3INR. ',
     txt29:
-      '1: Share SunPower to friends or send them to a friend group via WhatsApp, and get a chance to redeem SunPower junior merchants once, with a minimum income of 3INR. ',
+      '1: Share Tslenergy to friends or send them to a friend group via WhatsApp, and get a chance to redeem Tslenergy junior merchants once, with a minimum income of 3INR. ',
     txt30:
-      '2: Share SunPower to friends or send them to a friend group through FaceBook, you can get an opportunity to redeem SunPower junior merchants once, with a minimum income of 3INR. ',
+      '2: Share Tslenergy to friends or send them to a friend group through FaceBook, you can get an opportunity to redeem Tslenergy junior merchants once, with a minimum income of 3INR. ',
     txt31:
-      '3: Share SunPower to friends or send them to a friend group through Telegram, and get a chance to redeem SunPower junior merchants once, with a minimum income of 3INR. ',
+      '3: Share Tslenergy to friends or send them to a friend group through Telegram, and get a chance to redeem Tslenergy junior merchants once, with a minimum income of 3INR. ',
     txt32:
-      '4: Make an SunPower operation video and upload it to the YouTube channel to get an opportunity to redeem SunPower junior merchants once, with a minimum income of 3INR. ',
+      '4: Make an Tslenergy operation video and upload it to the YouTube channel to get an opportunity to redeem Tslenergy junior merchants once, with a minimum income of 3INR. ',
     txt33:
-      'Note: Every SunPower user can use U-Task every day to get the opportunity to redeem SunPower junior merchants, and can get 12INR exchange income every day. ',
+      'Note: Every Tslenergy user can use U-Task every day to get the opportunity to redeem Tslenergy junior merchants, and can get 12INR exchange income every day. ',
     txt34:
-      'SunPower users can also earn income by inviting friends. Every true and effective invitation will receive an invitation reward of 4INR, as well as a 2% pledge amount reward and 5% redemption income reward. Let every SunPower user can exchange with friends to earn more income. ',
+      'Tslenergy users can also earn income by inviting friends. Every true and effective invitation will receive an invitation reward of 4INR, as well as a 2% pledge amount reward and 5% redemption income reward. Let every Tslenergy user can exchange with friends to earn more income. ',
     txt35:
-      'Note: SunPower, as a global exchange arbitrage platform, encourages more users to join us to improve capital utilization efficiency and arbitrage returns. The SunPower system will automatically review every invitation, and every true and valid invitation will receive an invitation reward within 24 hours. ',
+      'Note: Tslenergy, as a global exchange arbitrage platform, encourages more users to join us to improve capital utilization efficiency and arbitrage returns. The Tslenergy system will automatically review every invitation, and every true and valid invitation will receive an invitation reward within 24 hours. ',
   },
 
   msg: {
@@ -519,10 +519,10 @@ export default {
     txt4: 'Select bank card',
     txt5: 'Add other methods',
     txt6:
-      'Personal income is subject to 20% personal income tax, all income is paid by SunPower',
-    txt7: 'SunPower charges 8% of investment income as a service fee',
+      'Personal income is subject to 20% personal income tax, all income is paid by Tslenergy',
+    txt7: 'Tslenergy charges 8% of investment income as a service fee',
     txt8:
-      'Completing any repayment contract will automatically become a VIP user of SunPower, with no fee for withdrawal',
+      'Completing any repayment contract will automatically become a VIP user of Tslenergy, with no fee for withdrawal',
     txt9: 'Withdrawal time is from 9 a.m. to 5 p.m. every day',
     txt10:
       'If you encounter problems during use, please contact our customer service',
@@ -539,7 +539,7 @@ export default {
     txt2: 'Please enter the deposit amount',
     txt3: 'Deposit Method',
     txt4:
-      "SunPower provides 24-hour deposit service. Anytime, anywhere, you can complete SunPower's OTC redemption and get the redemption income",
+      "Tslenergy provides 24-hour deposit service. Anytime, anywhere, you can complete Tslenergy's OTC redemption and get the redemption income",
     txt5: 'The recharge amount cannot be less than',
     txt6: 'The recharge amount cannot be greater than',
     txt7: 'Status',

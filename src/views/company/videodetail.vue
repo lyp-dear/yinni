@@ -1,5 +1,5 @@
 <template>
-  <modMain title="SunPower introduction video" class="video-otc">
+  <modMain title="Tslenergy introduction video" class="video-otc">
     <div class="video-main">
       <video
         src="@/assets/image/otc/viode.mp4"

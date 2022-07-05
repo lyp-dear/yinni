@@ -4,16 +4,16 @@
   <!-- </modMain> -->
   <div class="task">
     <!-- <top-bg :tit="$t('index.txt39')"></top-bg> -->
-    <div class="page-left">
+    <div class="page-left" @click="$router.go(-1)">
       <img src="@/assets/image/tsl/left.png" alt="" />
     </div>
-    <div class="task-tit">成为代理并赚取更多收入</div>
+    <div class="task-tit">每天完成推广任务，奖励非常丰厚</div>
     <div class="intive-btn">
       <van-button @click="share()">邀请好友</van-button>
     </div>
 
     <div class="task-content">
-      <div class="task-tab">每日任务</div>
+      <div class="task-tab">每日推广奖励</div>
       <!-- <div class="intive-box">
         <div class="intive-left">
           <img src="@/assets/image/home/intive.png" alt="" />
@@ -117,7 +117,7 @@
               <p>
                 {{ $t('task.txt14') }}
               </p>
-              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}2000</p>
+              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}500</p>
             </div>
             <div
               class="task-info-btn"
@@ -141,7 +141,7 @@
               <p>
                 {{ $t('task.txt14') }}
               </p>
-              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}1000</p>
+              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}500</p>
             </div>
             <div
               class="task-info-btn"
@@ -166,7 +166,7 @@
               <p>
                 {{ $t('task.txt14') }}
               </p>
-              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }} 1000</p>
+              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }} 500</p>
             </div>
             <div
               class="task-info-btn"
@@ -186,11 +186,11 @@
         <div class="task-info">
           <div class="task-info-txt-btn">
             <div class="txt-box">
-              <p>SunPower Show</p>
+              <p>Tslenergy Show</p>
               <p>
                 {{ $t('task.txt120') }}
               </p>
-              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}1000</p>
+              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}500</p>
             </div>
             <div
               class="task-info-btn"
@@ -216,7 +216,7 @@
             <div class="txt-box">
               <p>{{ $t('task.txt5') }}({{ count2 }}/1)</p>
               <p>{{ $t('task.txt6') }}</p>
-              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}5000</p>
+              <p>{{ $t('task.txt4') }}{{ $utils.currencyType }}2000</p>
             </div>
             <div
               class="task-info-btn"
@@ -569,7 +569,7 @@ export default {
     })
     if (this.userInfo && this.userInfo.username) {
       this.link =
-        'https://m.sunpowers.online/#/invite' +
+        'https://m.ustslenergy.com/#/invite' +
         '?code=' +
         this.userInfo.symbolCode
     }
@@ -727,7 +727,7 @@ export default {
           this.paward(type)
         } else {
           this.$router.push({
-            path: '/shareGroup',
+            path: '/upload',
             query: {
               title: 'share',
               type,

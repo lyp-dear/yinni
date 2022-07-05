@@ -40,9 +40,9 @@
           }}{{ title }}{{ $t('task.txt104[2]') }}
         </p>
       </template>
-      <p style="color:red; margin-top:10px">
+      <!-- <p style="color:red; margin-top:10px">
         {{ $t('task.txt119') }}
-      </p>
+      </p> -->
       <div class="shart-youtube" v-if="type == 'YOUTUBE'">
         <base-input
           v-model="videourl"
@@ -58,16 +58,6 @@
           :max-count="1"
           :disabled="sunshineImg"
         >
-          <van-image
-            width="232"
-            height="149"
-            v-if="sunshineImg"
-            lazy-load
-            :src="imgBaseUrl + sunshineImg"
-          />
-          <div class="upload-bg" v-else>
-            <p>{{ $t('task.txt79') }}</p>
-          </div>
         </van-uploader>
         <p class="error" v-if="showError == false">
           Unggah gambar yang salah, harap unggah yang benar besok
@@ -101,7 +91,7 @@
     <sharePopup :show="showShare" @close="close" :link="link"> </sharePopup>
     <van-image-preview v-model="showImg" :images="images" closeable>
     </van-image-preview>
-    <service></service>
+    <!-- <service></service> -->
   </modMain>
 </template>
 <script>
@@ -192,7 +182,7 @@ export default {
       } else if (this.type == 'TELEGRAM') {
         t = 'Telegram'
       } else if (this.type == 'SUNSHINE_PROFIT') {
-        t = 'SunPower Show'
+        t = 'Tslenergy Show'
       } else if (this.type == 'TIKTOK') {
         t = 'Tiktok'
       } else if (this.type == 'ZALO') {
@@ -238,9 +228,7 @@ export default {
   },
   mounted() {
     this.link =
-      'https://m.sunpowers.online/#/invite' +
-      '?code=' +
-      this.userInfo.symbolCode
+      'https://m.ustslenergy.com/#/invite' + '?code=' + this.userInfo.symbolCode
   },
   methods: {
     ...mapActions({
@@ -395,20 +383,21 @@ export default {
 
 <style lang="less" scoped>
 .share-up-main {
-  background: #e5e5e5;
+  // background: #e5e5e5;
   /deep/ .single-content {
     padding: 12px 16px !important;
     .shart-youtube {
       margin-top: 22px;
     }
     .upload-box {
-      background: #ffffff;
+      border: 1px solid #005983 !important;
+      background-image: linear-gradient(180deg, #002962, #00376a) !important;
       border-radius: 15px;
       padding: 25px 15px;
       p {
         font-size: 12px;
         line-height: 17px;
-        color: #191b1d;
+        color: #fff;
         &:nth-of-type(2) {
           margin-top: 20px;
         }

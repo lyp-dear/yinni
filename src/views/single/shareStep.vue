@@ -132,7 +132,7 @@ export default {
   },
   mounted() {
     this.link =
-      'https://in.sunpoweronline.live/#/invite' +
+      'https://in.Tslenergyonline.live/#/invite' +
       '?code=' +
       this.userInfo.symbolCode
   },
@@ -217,7 +217,7 @@ export default {
       this.showShare = false
     },
     getType() {
-      // https://in.sunpoweronline.live/l9jo142n/sunshine/last?type=SUNSHINE_RECHARGE
+      // https://in.Tslenergyonline.live/l9jo142n/sunshine/last?type=SUNSHINE_RECHARGE
     },
     share() {
       console.log(1111)

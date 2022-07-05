@@ -1,15 +1,15 @@
 <template>
-  <modMain title="About SunPower" class="about-otc">
+  <modMain title="About Tslenergy" class="about-otc">
     <div class="otc-txt">
       <p>
-        After completing the SunPower merchant redemption work, you can obtain
+        After completing the Tslenergy merchant redemption work, you can obtain
         stable additional income at any time, any place, and any device.
         <br /><br />
-        SunPower is a personal digital currency arbitrage investment launched by
-        SunPower based on customer needs. It specifically provides individual
-        investors with financial and investment management services that meet
-        their needs, helping you to make more wise investment decisions on the
-        road to greater responsibilities in life. <br />
+        Tslenergy is a personal digital currency arbitrage investment launched
+        by Tslenergy based on customer needs. It specifically provides
+        individual investors with financial and investment management services
+        that meet their needs, helping you to make more wise investment
+        decisions on the road to greater responsibilities in life. <br />
       </p>
     </div>
     <div class="otc-banner">
@@ -20,33 +20,34 @@
     </div>
     <div class="otc-txt">
       <p>
-        SunPower cooperates with well-known digital currency exchanges (Binance,
-        Coinbase, SunPower, Wazirx, AAX), with an average daily exchange volume
-        of 10M+USDT. As a professional team, SunPower provides reliable, safe
-        and fast exchange transactions for every customer service. <br /><br />
-        SunPower provides users with different levels of merchant choices,
-        namely SunPower junior merchants and SunPower ☆One-star merchants,
-        SunPower OTC ☆☆Two-star merchants, SunPower ☆☆☆Samsung merchants,
-        SunPower ☆☆☆☆Four-star merchants, SunPower ☆☆☆☆☆Five-star merchants.
+        Tslenergy cooperates with well-known digital currency exchanges
+        (Binance, Coinbase, Tslenergy, Wazirx, AAX), with an average daily
+        exchange volume of 10M+USDT. As a professional team, Tslenergy provides
+        reliable, safe and fast exchange transactions for every customer
+        service. <br /><br />
+        Tslenergy provides users with different levels of merchant choices,
+        namely Tslenergy junior merchants and Tslenergy ☆One-star merchants,
+        Tslenergy OTC ☆☆Two-star merchants, Tslenergy ☆☆☆Samsung merchants,
+        Tslenergy ☆☆☆☆Four-star merchants, Tslenergy ☆☆☆☆☆Five-star merchants.
         <br /><br />
         Different levels of OTC merchants have different pledge deposit amount,
         single exchange limit, and single exchange income. The higher the level,
         the higher the pledge deposit required, and the higher the exchange
-        income obtained. As a professional team, SunPower is sure to be SunPower
-        merchants provide stable and safe exchange income.
+        income obtained. As a professional team, Tslenergy is sure to be
+        Tslenergy merchants provide stable and safe exchange income.
       </p>
     </div>
     <div class="img-box"><img src="@/assets/image/otc/otc5.jpg" alt="" /></div>
 
     <div class="otc-txt">
       <p>
-        For example: pledge ₹100,000 to become SunPower ☆☆☆☆Four-star merchants
+        For example: pledge ₹100,000 to become Tslenergy ☆☆☆☆Four-star merchants
         can get 3 redemption opportunities a day, with a minimum income of
         ₹3,000 for a single redemption, and a minimum daily income of ₹9,000.
         Each user can pledge multiple times to obtain more exchange
         opportunities and earn more exchange income. <br /><br />
-        As a trading team, SunPower cooperates with well-known exchanges
-        (Binance, Coinbase, SunPower, Wazirx), and will guarantee to provide
+        As a trading team, Tslenergy cooperates with well-known exchanges
+        (Binance, Coinbase, Tslenergy, Wazirx), and will guarantee to provide
         every customer with stable, safe and fast exchange transaction services
         and income.
       </p>

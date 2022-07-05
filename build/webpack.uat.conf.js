@@ -79,7 +79,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency',
       env: env.NODE_ENV,
       min: '.min',
-      pathPrefix: 'https://in.sunpoweronline.live/uat',
+      pathPrefix: 'https://in.Tslenergyonline.live/uat',
       // pathPrefix:
       //   'https://cdn-winner.oss-us-east-1.aliyuncs.com/app-interaction',
     }),

@@ -1,5 +1,5 @@
 <template>
-  <modMain title="About SunPower" class="about noPadding">
+  <modMain title="About Tslenergy" class="about noPadding">
     <p>我们是谁?</p>
     <p>特斯拉的使命是加速世界向可持续能源的过渡。</p>
     <p>特斯拉于 2003 年由一群工程师创立，他们想证明电动汽车比汽油</p>

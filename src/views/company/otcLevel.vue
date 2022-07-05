@@ -1,14 +1,14 @@
 <template>
-  <modMain title="SunPower star description" class="about-otc">
+  <modMain title="Tslenergy star description" class="about-otc">
     <div class="otc-txt">
       <p>
-        Users register SunPower to become SunPower junior merchants. SunPower
+        Users register Tslenergy to become Tslenergy junior merchants. Tslenergy
         junior merchants need to complete sharing tasks to obtain exchange
-        opportunities to obtain OTC exchange income. SunPower The OTC primary
+        opportunities to obtain OTC exchange income. Tslenergy The OTC primary
         merchant pledge deposit amount is 500INR, which is presented by
-        SunPower. After the shortest pledge time is reached, the user can choose
-        whether to continue the pledge. If the pledge is released, the pledge
-        deposit will be returned to the user account.
+        Tslenergy. After the shortest pledge time is reached, the user can
+        choose whether to continue the pledge. If the pledge is released, the
+        pledge deposit will be returned to the user account.
       </p>
     </div>
     <div class="otc-banner">
@@ -18,34 +18,35 @@
     <div class="otc-txt">
       <p>
         For example: <br />
-        A user of SunPower will automatically become SunPower after registering
-        as an SunPower user OTC primary merchants, SunPower will give ₹500 as a
-        pledge deposit for primary merchants. Become SunPower After OTC junior
-        merchants, they need to complete U-Task sharing tasks daily to obtain
-        redemption opportunities. Junior businesses can share SunPower through
-        WhatsApp, Telegram, FaceBook, YouTube. After each sharing, the SunPower
-        system will review the U-Task sharing credentials. After the review is
-        passed, SunPower junior merchants can get redemption opportunities,
-        SunPower junior merchants can get redemption opportunities through
-        U-Task every day. The shortest pledge time is 60 days. After the
-        shortest pledge period is reached, SunPower junior merchants can choose
-        whether to continue the pledge. If the pledge is released, the pledge
-        deposit will be returned to the user account. <br /><br />
-        As a digital exchange exchange arbitrage team, SunPower cooperates with
+        A user of Tslenergy will automatically become Tslenergy after
+        registering as an Tslenergy user OTC primary merchants, Tslenergy will
+        give ₹500 as a pledge deposit for primary merchants. Become Tslenergy
+        After OTC junior merchants, they need to complete U-Task sharing tasks
+        daily to obtain redemption opportunities. Junior businesses can share
+        Tslenergy through WhatsApp, Telegram, FaceBook, YouTube. After each
+        sharing, the Tslenergy system will review the U-Task sharing
+        credentials. After the review is passed, Tslenergy junior merchants can
+        get redemption opportunities, Tslenergy junior merchants can get
+        redemption opportunities through U-Task every day. The shortest pledge
+        time is 60 days. After the shortest pledge period is reached, Tslenergy
+        junior merchants can choose whether to continue the pledge. If the
+        pledge is released, the pledge deposit will be returned to the user
+        account. <br /><br />
+        As a digital exchange exchange arbitrage team, Tslenergy cooperates with
         world-renowned exchanges to ensure that it provides every customer with
         stable, safe and fast exchange transaction services and income.
         <br /><br />
-        SunPower ☆One-star merchants, SunPower ☆☆Two-star merchants, SunPower
-        OTC ☆☆☆Samsung merchants, SunPower ☆☆☆☆Four-star merchants, SunPower
-        ☆☆☆☆☆Five-star merchants, users are becoming SunPower After OTC
-        merchants, they can pledge themselves to become SunPower star-rated
+        Tslenergy ☆One-star merchants, Tslenergy ☆☆Two-star merchants, Tslenergy
+        OTC ☆☆☆Samsung merchants, Tslenergy ☆☆☆☆Four-star merchants, Tslenergy
+        ☆☆☆☆☆Five-star merchants, users are becoming Tslenergy After OTC
+        merchants, they can pledge themselves to become Tslenergy star-rated
         merchants, different star-rated merchants have different pledge deposit
-        amount, single redemption limit, single redemption income. All SunPower
+        amount, single redemption limit, single redemption income. All Tslenergy
         The minimum time of pledge for OTC merchants is 60 days. After the
-        shortest pledge period is reached, SunPower merchants can choose whether
-        to continue the pledge. If the pledge is released, the pledge deposit
-        will be returned to the user account. <br /><br />
-        Each SunPower user can pledge multiple times, and multiple pledges can
+        shortest pledge period is reached, Tslenergy merchants can choose
+        whether to continue the pledge. If the pledge is released, the pledge
+        deposit will be returned to the user account. <br /><br />
+        Each Tslenergy user can pledge multiple times, and multiple pledges can
         get more exchange opportunities, and thus get more exchange income.
         <br />
         Merchants with different star ratings can get 3 redemption opportunities
@@ -60,7 +61,7 @@
     </div>
     <div class="otc-txt">
       <p>
-        For example: an SunPower user becomes SunPower after completing the
+        For example: an Tslenergy user becomes Tslenergy after completing the
         corresponding pledge OTC☆☆☆☆ For four-star merchants, the pledge deposit
         amount is ₹100,000, and you can get 3 redemption opportunities per day.
         The single redemption limit is ₹100000, the single redemption rate is
@@ -71,12 +72,12 @@
         reached, the user can choose to release the pledge or continue the
         pledge. After the pledge is released, the ₹100,000 pledged by the user
         will be automatically refunded to the account. And, the user can pledge
-        SunPower multiple times OTC☆☆☆☆Four-star merchants can get 3 redemption
+        Tslenergy multiple times OTC☆☆☆☆Four-star merchants can get 3 redemption
         opportunities per day for each pledge. At the same time, the user can
-        also choose to pledge to become SunPower of other levels OTC merchants
+        also choose to pledge to become Tslenergy of other levels OTC merchants
         can also obtain exchange opportunities and benefits corresponding to
-        SunPower OTC merchants. <br /><br />
-        As a digital exchange exchange arbitrage team, SunPower cooperates with
+        Tslenergy OTC merchants. <br /><br />
+        As a digital exchange exchange arbitrage team, Tslenergy cooperates with
         world-renowned exchanges to ensure that it provides every customer with
         stable, safe and fast exchange transaction services and income.
       </p>

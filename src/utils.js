@@ -138,7 +138,7 @@ export default {
     if (isiOS) {
       return
     } else if (isAndroid) {
-      _downUrl = 'https://m.sunpowers.online/media/apk/sunpower.apk'
+      _downUrl = 'https://m.ustslenergy.com/media/apk/Tslenergy.apk'
       // _downUrl = 'https://mysolarpower.cc/apk/MySolarPower.apk'
     }
     setTimeout(() => {

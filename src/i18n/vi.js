@@ -13,12 +13,12 @@ export default {
     txt2: 'Đổi quà tặng',
     txt3: 'Vui lòng nhập mã đổi quà',
     txt4: 'Quy tắc',
-    txt5: 'Quà tặng phúc lợi SunPower',
+    txt5: 'Quà tặng phúc lợi Tslenergy',
     txt6: [
-      '1: Người dùng SunPower có thể tham gia chương trình quà tặng phúc lợi tiền mặt SunPower mỗi ngày một lần.',
-      '2: Mỗi ngày vào lúc 6 giờ chiều, SunPower sẽ phát mã rút thưởng trong nhóm chính thức, người dùng SunPower nhập mã rút thưởng là có thể tham gia rút thưởng.',
-      '3: Người dùng SunPower tham gia rút thưởng đều có cơ hội nhận được phần thưởng bằng tiền mặt, dao động từ 100 ₫-1000000 ₫.',
-      '4: Số tiền người dùng SunPower nhận được khi tham gia rút thưởng phụ thuộc vào cấp độ hoạt động của tài khoản SunPower (đăng nhập, lời mời, đầu tư).',
+      '1: Người dùng Tslenergy có thể tham gia chương trình quà tặng phúc lợi tiền mặt Tslenergy mỗi ngày một lần.',
+      '2: Mỗi ngày vào lúc 6 giờ chiều, Tslenergy sẽ phát mã rút thưởng trong nhóm chính thức, người dùng Tslenergy nhập mã rút thưởng là có thể tham gia rút thưởng.',
+      '3: Người dùng Tslenergy tham gia rút thưởng đều có cơ hội nhận được phần thưởng bằng tiền mặt, dao động từ 100 ₫-1000000 ₫.',
+      '4: Số tiền người dùng Tslenergy nhận được khi tham gia rút thưởng phụ thuộc vào cấp độ hoạt động của tài khoản Tslenergy (đăng nhập, lời mời, đầu tư).',
       '5: Số tiền thưởng có thể được rút ra hoặc đầu tư mà không chịu bất kỳ hạn chế nào.',
     ],
     txt7: 'Xem chi tiết',
@@ -30,7 +30,7 @@ export default {
     txt4: 'Phúc lợi tiền mặt',
     txt6: 'Đội ngũ của tôi',
     txt7: 'Dịch vụ khách hàng',
-    txt8: 'SunPower',
+    txt8: 'Tslenergy',
     txt9: 'Đề xuất',
     txt17: 'Lợi nhuận hàng ngày',
     txt18: 'Trở thành',
@@ -42,8 +42,8 @@ export default {
     txt24: 'Mối quan hệ khách hàng bền chặt',
     txt25: 'Được chú ý rộng rãi trong ngành',
     txt26: 'Nền tảng được đảm bảo',
-    txt27: 'SunPower hoạt động thế nào',
-    txt28: 'Đăng ký người dùng SunPower',
+    txt27: 'Tslenergy hoạt động thế nào',
+    txt28: 'Đăng ký người dùng Tslenergy',
     txt29: 'Đăng ký qua E-mail hoặc số điện thoại di động',
     txt30: 'Thiết bị đầu tư',
     txt31: 'Chọn thiết bị bạn muốn đầu tư và hoàn tất đầu tư',
@@ -51,7 +51,8 @@ export default {
     txt33:
       'Thiết bị có thu nhập cho thuê theo ngày và được thanh toán hàng ngày',
     txt34: 'Học cách đầu tư tốt hơn',
-    txt35: 'SunPower hợp tác dự án ổn định để đảm bảo thu nhập ổn định lâu dài',
+    txt35:
+      'Tslenergy hợp tác dự án ổn định để đảm bảo thu nhập ổn định lâu dài',
     txt36: 'Trang chủ',
     txt37: 'Thiết bị',
     txt38: 'Thu nhập',
@@ -63,9 +64,9 @@ export default {
     txt46: [
       '1: Các bạn hãy cùng tham gia xây dựng để tạo ra một tương lai tốt đẹp hơn;',
       '2: Đăng ký sẽ được tặng thiết bị trị giá ₫400000, thu nhập mỗi ngày ₫6000',
-      '3: Đăng ký kênh chính thức của SunPower, nhận thưởng ₫20000;',
+      '3: Đăng ký kênh chính thức của Tslenergy, nhận thưởng ₫20000;',
       '4: Mời bạn bè, mỗi người được thưởng ₫2000;',
-      '5: Chia sẻ SunPower, tạo nhóm của riêng bạn;',
+      '5: Chia sẻ Tslenergy, tạo nhóm của riêng bạn;',
       '6: Mở hòm kho báu, nhận phúc lợi tiền mặt mỗi ngày;',
     ],
     txt48: 'Thiết bị thường dùng',
@@ -108,7 +109,7 @@ export default {
 
       "Máy xúc là một phương tiện kỹ thuật đặc biệt được cấu tạo bởi bệ quay, xẻng lớn và cánh tay cơ khí. Thông thường nó di chuyển bằng bánh xích hoặc bánh xe. Bệ xoay có thể được sử dụng như một máy xúc 360 độ, ở phần trung tâm của bàn xoay của máy xúc đều được trang bị một mâm quay phân luồng (joint Ass'y), vỏ được cố định trên máy, phía trên có 6-9 ống dẫn dầu, trục trung tâm được cố định vào phía dưới của máy cũng có 6-9 ống dẫn dầu, có thể quay 360 độ. Mục đích của nó là phân phối dầu thủy lực của máy phía trên đến bộ phận mô tơ thủy lực di chuyển trong kết cấu khung gầm, dẫn động bánh xích sau đó di chuyển, hoặc vận hành tấm ủi, vì vậy phần trên của máy xúc cần được quay 360 độ bao nhiêu lần cũng được.",
 
-      'Xe chở bùn hay còn gọi là xe trộn bê tông là loại xe chuyên dụng dùng để vận chuyển bê tông trộn sẵn cho các công trường xây dựng; Xe được trang bị thùng trộn hình trụ để chở bê tông đã được trộn, trong quá trình vận chuyển thùng trộn luôn quay để đảm bảo bê tông được vận chuyển không bị đông đặc. Sau khi bê tông được vận chuyển, bên trong thùng trộn thường được rửa sạch bằng nước để tránh việc bê tông đông cứng chiếm dụng không gian. <br/> đầu tư vào thiết bị này có nghĩa là sở hữu quyền thu lợi nhuận từ thiết bị. Trong thời gian cho thuê thiết bị, lợi nhuận do thiết bị tạo ra thuộc về nhà đầu tư. SunPower sẽ đảm bảo lợi nhuận của nhà đầu tư, sau khi hết thời gian sử dụng SunPower sẽ hoàn trả tất cả các khoản tiền đầu tư.',
+      'Xe chở bùn hay còn gọi là xe trộn bê tông là loại xe chuyên dụng dùng để vận chuyển bê tông trộn sẵn cho các công trường xây dựng; Xe được trang bị thùng trộn hình trụ để chở bê tông đã được trộn, trong quá trình vận chuyển thùng trộn luôn quay để đảm bảo bê tông được vận chuyển không bị đông đặc. Sau khi bê tông được vận chuyển, bên trong thùng trộn thường được rửa sạch bằng nước để tránh việc bê tông đông cứng chiếm dụng không gian. <br/> đầu tư vào thiết bị này có nghĩa là sở hữu quyền thu lợi nhuận từ thiết bị. Trong thời gian cho thuê thiết bị, lợi nhuận do thiết bị tạo ra thuộc về nhà đầu tư. Tslenergy sẽ đảm bảo lợi nhuận của nhà đầu tư, sau khi hết thời gian sử dụng Tslenergy sẽ hoàn trả tất cả các khoản tiền đầu tư.',
       'Cần trục tháp là thiết bị nâng hạ được sử dụng phổ biến nhất trên các công trường xây dựng, còn được gọi là "cẩu tháp" Nguyên vật liệu phục vụ cho việc xây dựng như tôn, bê tông, ống thép. Cần trục tháp là thiết bị không thể thiếu trên công trường. ',
 
       'Xe chở quặng cỡ lớn là xe ben ngoài đường cao tốc (Off-highway dump trucks), là một xe ben được sử dụng để vận chuyển các mỏ than và cát ở các khu vực công trường thô sơ không phải đường cao tốc, chẳng hạn như các mỏ lộ thiên lớn và các dự án thủy lợi. Trong công trình dân dụng thường kết hợp với các loại máy móc xây dựng như máy xúc, máy xúc lật, máy vận chuyển bằng băng tải... để tạo thành một dây chuyền sản xuất bốc xếp, vận chuyển, xếp dỡ dây chuyền sản xuất, tiến hành vận chuyển đất, cát, vật liệu rời.',
@@ -117,7 +118,7 @@ export default {
       'Tàu nửa chìm là loại tàu đặc biệt có thân tàu có thể chìm dưới nước trong quá trình xếp dỡ nhưng vẫn ở mớn nước bình thường trong quá trình hàng hải. Có rất nhiều két dằn bên trong thân tàu. Xuống và nổi trong quá trình xếp dỡ được hoàn thành bằng cách lái vào và thoát nước dằn. Nó là một con tàu hạng nặng chuyên vận chuyển các thiết bị siêu lớn, được gọi là "Xe nâng hàng xa bờ". Theo mục đích thiết kế, tàu nửa chìm được chia thành tàu kỹ thuật cứu hộ nửa chìm và tàu vận tải nửa chìm [4]',
     ],
     txt27:
-      '<br/> đầu tư vào thiết bị này có nghĩa là sở hữu quyền thu lợi nhuận từ thiết bị. Trong thời gian cho thuê thiết bị, lợi nhuận do thiết bị tạo ra thuộc về nhà đầu tư. SunPower sẽ đảm bảo lợi nhuận của nhà đầu tư, sau khi hết thời gian sử dụng SunPower sẽ hoàn trả tất cả các khoản tiền đầu tư.',
+      '<br/> đầu tư vào thiết bị này có nghĩa là sở hữu quyền thu lợi nhuận từ thiết bị. Trong thời gian cho thuê thiết bị, lợi nhuận do thiết bị tạo ra thuộc về nhà đầu tư. Tslenergy sẽ đảm bảo lợi nhuận của nhà đầu tư, sau khi hết thời gian sử dụng Tslenergy sẽ hoàn trả tất cả các khoản tiền đầu tư.',
     txt28: 'Cho thuê thành công',
     txt29: 'Giá cho thuê',
   },
@@ -142,21 +143,21 @@ export default {
     txt4: 'Phần thưởng +',
     txt5: 'Nhóm chính thức của Telegram',
     txt6:
-      'Tham gia vào nhóm chính thức của Telegram và nhận phúc lợi của SunPower',
+      'Tham gia vào nhóm chính thức của Telegram và nhận phúc lợi của Tslenergy',
     txt7: 'Chia sẻ',
     txt12: 'Tham gia',
     txt13: 'Chia sẻ',
-    txt14: 'Gửi SunPower cho một người bạn hoặc một nhóm bạn',
+    txt14: 'Gửi Tslenergy cho một người bạn hoặc một nhóm bạn',
     txt15: ['Chia sẻ', 'Chụp ảnh màn hình'],
     txt16: ['Lưu', 'Chụp ảnh màn hình và chia sẻ, tải ảnh chụp màn hình lên'],
     txt23:
       ' Sau khi chia sẻ thành công, chụp ảnh màn hình lưu lại ảnh đã chia sẻ thành công ',
     txt24: 'Mời',
-    txt25: '3: Mỗi người dùng SunPower được nhận một lần',
+    txt25: '3: Mỗi người dùng Tslenergy được nhận một lần',
     txt26:
       'Chia sẻ ảnh chụp màn hình về doanh thu hợp đồng, tải lên ảnh chụp màn hình',
-    txt27: 'Tạo video quảng cáo cho SunPower và tải lên YouTube',
-    txt28: 'Tạo video quảng cáo cho SunPower và tải lên Tiktok',
+    txt27: 'Tạo video quảng cáo cho Tslenergy và tải lên YouTube',
+    txt28: 'Tạo video quảng cáo cho Tslenergy và tải lên Tiktok',
     txt37: 'Đăng nhập',
     txt38: 'Nhận',
     txt39: 'Nhận',
@@ -170,8 +171,8 @@ export default {
     txt60: 'Lỗi định dạng hình ảnh',
     txt61: 'Tải ảnh có dung lượng không quá 6M',
     txt66:
-      ' Các bạn hãy cùng tham gia xây dựng để tạo ra một tương lai tốt đẹp hơn! Người dùng mới sẽ được tặng ₫400000, thu nhập miễn phí hàng ngày ₫4000.Tham gia nhóm chính thức, nhận ngay phần thưởng ₫20000, hãy mời bạn bè để kiếm thêm thu nhập, mỗi lời mời sẽ được thưởng ₫2000.Còn rất nhiều nhiệm vụ chia sẻ để có thu nhập miễn phí, thu nhập không giới hạn.Hãy tham gia trải nghiệm SunPower thôi nào.',
-    txt67: 'Liên kết chia sẻ độc quyền của SunPowerBuilder',
+      ' Các bạn hãy cùng tham gia xây dựng để tạo ra một tương lai tốt đẹp hơn! Người dùng mới sẽ được tặng ₫400000, thu nhập miễn phí hàng ngày ₫4000.Tham gia nhóm chính thức, nhận ngay phần thưởng ₫20000, hãy mời bạn bè để kiếm thêm thu nhập, mỗi lời mời sẽ được thưởng ₫2000.Còn rất nhiều nhiệm vụ chia sẻ để có thu nhập miễn phí, thu nhập không giới hạn.Hãy tham gia trải nghiệm Tslenergy thôi nào.',
+    txt67: 'Liên kết chia sẻ độc quyền của TslenergyBuilder',
     txt68: 'Sao chép',
     txt69:
       'Sao chép liên kết, mở phần mềm xã hội trên điện thoại của bạn và chia sẻ nó với bạn bè',
@@ -186,11 +187,11 @@ export default {
     txt88: 'Tải lên',
     txt91:
       'Liên kết chia sẻ đã được sao chép thành công, bạn có thể dán vào để chia sẻ',
-    txt92: 'Quay video sử dụng SunPower',
-    txt93: 'Video bao gồm thao tác và giới thiệu SunPower',
+    txt92: 'Quay video sử dụng Tslenergy',
+    txt93: 'Video bao gồm thao tác và giới thiệu Tslenergy',
     txt94: 'Tải video lên kênh YouTube của bạn',
     txt95:
-      'Làm video tuyên truyền cho SunPower, tải lên kênh YouTube, sau khi được hệ thống xét duyệt, sẽ nhận được phần thưởng ₫20000',
+      'Làm video tuyên truyền cho Tslenergy, tải lên kênh YouTube, sau khi được hệ thống xét duyệt, sẽ nhận được phần thưởng ₫20000',
     txt96: 'Vui lòng nhập URL video YouTube mà bạn đã tạo',
     txt97: 'Vui lòng nhập URL video YouTube',
     txt98: 'Vui lòng điền chính xác URL mà bạn chia sẻ',
@@ -200,51 +201,51 @@ export default {
     txt102: 'Nhấp để xem hình ảnh ví dụ được chia sẻ',
     txt103: [
       'Sử dụng',
-      'Chia sẻ SunPower',
+      'Chia sẻ Tslenergy',
       ', Mời bạn bè để đổi và kiếm tiền cùng nhau.',
     ],
     txt104: [
       'Sử dụng',
-      'Chia sẻ SunPower với bạn bè hoặc chia sẻ cho riêng bạn',
+      'Chia sẻ Tslenergy với bạn bè hoặc chia sẻ cho riêng bạn',
       'Vào nhóm, tải lên và chia sẻ ảnh chụp màn hình, sau khi hệ thống xét duyệt, được nhận phần thưởng + ₫2000',
     ],
     txt105: 'Ví dụ',
     txt106: 'Lời mời hợp lệ, mỗi người sẽ được thưởng ₫2000',
     txt107: 'Quy tắc mời: ',
     txt108: [
-      '1: SunPower sẽ thưởng hậu hĩnh cho người mời.',
+      '1: Tslenergy sẽ thưởng hậu hĩnh cho người mời.',
       '2: Lời mời hợp lệ, cứ mời được một người sẽ được thưởng ₫2000.',
-      '3: SunPower sẽ thưởng cho người mời 2% số tiền đầu tư.',
-      '4: SunPower sẽ thưởng cho người mời 5% lợi nhuận đầu tư.',
+      '3: Tslenergy sẽ thưởng cho người mời 2% số tiền đầu tư.',
+      '4: Tslenergy sẽ thưởng cho người mời 5% lợi nhuận đầu tư.',
     ],
     txt109: 'Nhắc nhở: ',
     txt110: [
-      '1: SunPower là một nền tảng cho thuê đầu tư thiết bị cơ sở hạ tầng toàn cầu, khuyến khích nhiều người dùng tham gia với chúng tôi, nâng cao hiệu suất sử dụng thiết bị và giúp nhiều người có thu nhập cao hơn.',
-      '2: Hệ thống SunPower sẽ xác định tính xác thực của người dùng dựa trên IP đăng nhập, thời gian đăng nhập và trạng thái chia sẻ của mỗi người dùng.',
-      '3: Hệ thống SunPower sẽ xem xét nghiêm ngặt tính xác thực của tất cả người dùng, chỉ những lời mời hợp lệ mới nhận được phần thưởng của SunPower.',
-      '4: SunPower sẽ xem xét từng lời mời, lời mời thực sự sẽ nhận được phần thưởng trong vòng 24 giờ.',
+      '1: Tslenergy là một nền tảng cho thuê đầu tư thiết bị cơ sở hạ tầng toàn cầu, khuyến khích nhiều người dùng tham gia với chúng tôi, nâng cao hiệu suất sử dụng thiết bị và giúp nhiều người có thu nhập cao hơn.',
+      '2: Hệ thống Tslenergy sẽ xác định tính xác thực của người dùng dựa trên IP đăng nhập, thời gian đăng nhập và trạng thái chia sẻ của mỗi người dùng.',
+      '3: Hệ thống Tslenergy sẽ xem xét nghiêm ngặt tính xác thực của tất cả người dùng, chỉ những lời mời hợp lệ mới nhận được phần thưởng của Tslenergy.',
+      '4: Tslenergy sẽ xem xét từng lời mời, lời mời thực sự sẽ nhận được phần thưởng trong vòng 24 giờ.',
     ],
-    txt111: 'Tham gia nhóm SunPower, nhận phần thưởng ₫20000',
+    txt111: 'Tham gia nhóm Tslenergy, nhận phần thưởng ₫20000',
     txt112:
-      'Các thành viên nhóm SunPower chia sẻ, hoạt động phần thưởng của nền tảng, không thể bỏ qua',
+      'Các thành viên nhóm Tslenergy chia sẻ, hoạt động phần thưởng của nền tảng, không thể bỏ qua',
     txt113: 'Nhóm Telegram',
-    txt114: 'Tạo video tuyên truyền cho SunPower, và tải lên kênh YouTube',
+    txt114: 'Tạo video tuyên truyền cho Tslenergy, và tải lên kênh YouTube',
     txt115: 'Nhiệm vụ hàng ngày',
     txt116: 'Phần thưởng Urofit',
     txt117:
-      'Chia sẻ SunPower lên nhóm WhatsApp hoặc nhóm Telegram hoặc nhóm FaceBook hoặc nhóm Zalo',
+      'Chia sẻ Tslenergy lên nhóm WhatsApp hoặc nhóm Telegram hoặc nhóm FaceBook hoặc nhóm Zalo',
     txt118:
-      'Chia sẻ SunPower lên WhatsApp hoặc nhóm Telegram hoặc nhóm FaceBook hoặc nhóm Zalo, để bạn bè đăng ký SunPower thông qua liên kết bạn đã mời, bạn sẽ nhận được càng nhiều phúc lợi hơn.Mỗi ngày chia sẻ cho 4 nhóm bất kỳ và tải lên ảnh chụp màn hình mà bạn chia sẻ.Sau khi hệ thống xét duyệt, bạn sẽ nhận được phần thưởng ₫10000.',
+      'Chia sẻ Tslenergy lên WhatsApp hoặc nhóm Telegram hoặc nhóm FaceBook hoặc nhóm Zalo, để bạn bè đăng ký Tslenergy thông qua liên kết bạn đã mời, bạn sẽ nhận được càng nhiều phúc lợi hơn.Mỗi ngày chia sẻ cho 4 nhóm bất kỳ và tải lên ảnh chụp màn hình mà bạn chia sẻ.Sau khi hệ thống xét duyệt, bạn sẽ nhận được phần thưởng ₫10000.',
     txt119:
       'Vui lòng tải lên các nhóm khác nhau mỗi ngày.Mỗi ngày chỉ có một cơ hội xét duyệt bài.Nếu bạn tải lên trùng nhóm hoặc sai nhóm, bạn có thể tải lên lại vào ngày hôm sau.',
     txt120:
-      'Gửi ảnh chụp màn hình về các khoản tiền gửi, rút tiền và thu nhập của SunPower cho bạn bè hoặc nhóm',
+      'Gửi ảnh chụp màn hình về các khoản tiền gửi, rút tiền và thu nhập của Tslenergy cho bạn bè hoặc nhóm',
     txt121:
-      'Gửi ảnh chụp màn hình về thu nhập, tiền gửi và rút tiền của SunPower cho bạn bè xem, sẽ có hiệu lực sau khi được hệ thống xét duyệt, và nhận được phần thưởng ₫1200',
+      'Gửi ảnh chụp màn hình về thu nhập, tiền gửi và rút tiền của Tslenergy cho bạn bè xem, sẽ có hiệu lực sau khi được hệ thống xét duyệt, và nhận được phần thưởng ₫1200',
     txt122: 'Chia sẻ nhóm',
-    txt123: 'Tạo video quảng cáo cho SunPower và tải video đó lên kênh Tiktok',
+    txt123: 'Tạo video quảng cáo cho Tslenergy và tải video đó lên kênh Tiktok',
     txt124:
-      'Tạo video quảng cáo cho SunPower, tải video đó lên kênh Tiktok và nhận phần thưởng ₫20000 sau khi hệ thống xem xét',
+      'Tạo video quảng cáo cho Tslenergy, tải video đó lên kênh Tiktok và nhận phần thưởng ₫20000 sau khi hệ thống xem xét',
   },
 
   my: {
@@ -293,7 +294,7 @@ export default {
     txt5: 'Xác nhận mật khẩu',
     txt6: 'Vui lòng nhập mã xác nhận',
     txt7: 'Đăng ký',
-    txt8: '"Điều khoản dịch vụ của người dùng SunPower"',
+    txt8: '"Điều khoản dịch vụ của người dùng Tslenergy"',
     txt9: 'Quên mật khẩu ? ',
     txt10: 'Dịch vụ khách hàng',
     txt11: 'Nhóm',
@@ -397,9 +398,9 @@ export default {
     txt1: 'Vấn đề thường gặp',
     txt8: 'Chi tiết',
     txt13:
-      'SunPower hợp tác với các ngân hàng thương mại và có cơ chế bảo lãnh quỹ hoàn chỉnh.Tất cả các khoản tiền gửi sẽ đến tài khoản của bạn trong vòng 10 phút.Vui lòng đảm bảo rằng thông tin tài khoản là chính xác.',
+      'Tslenergy hợp tác với các ngân hàng thương mại và có cơ chế bảo lãnh quỹ hoàn chỉnh.Tất cả các khoản tiền gửi sẽ đến tài khoản của bạn trong vòng 10 phút.Vui lòng đảm bảo rằng thông tin tài khoản là chính xác.',
     txt17:
-      'SunPower có cơ chế đảm bảo an ninh quỹ hoàn chỉnh.Tất cả các khoản tiền rút sẽ đến tài khoản trong vòng một ngày.Vui lòng đảm bảo rằng thông tin tài khoản rút tiền là chính xác.',
+      'Tslenergy có cơ chế đảm bảo an ninh quỹ hoàn chỉnh.Tất cả các khoản tiền rút sẽ đến tài khoản trong vòng một ngày.Vui lòng đảm bảo rằng thông tin tài khoản rút tiền là chính xác.',
   },
   msg: {
     mobile: 'Vui lòng nhập chính xác số điện thoại',
@@ -437,10 +438,10 @@ export default {
     txt4: 'Vui lòng chọn thẻ ngân hàng',
     txt5: 'Thêm phương thức khác',
     txt6:
-      'SunPower sẽ thu 10 % phí để tính vào chi phí bảo trì thiết bị và thuế thu nhập cá nhân',
-    txt7: 'SunPower thu 8 % thu nhập đầu tư để tính phí vào dịch vụ',
+      'Tslenergy sẽ thu 10 % phí để tính vào chi phí bảo trì thiết bị và thuế thu nhập cá nhân',
+    txt7: 'Tslenergy thu 8 % thu nhập đầu tư để tính phí vào dịch vụ',
     txt8:
-      'Hoàn thành bất kỳ hợp đồng trả nợ nào sẽ tự động trở thành người dùng VIP của SunPower, và không mất phí rút tiền',
+      'Hoàn thành bất kỳ hợp đồng trả nợ nào sẽ tự động trở thành người dùng VIP của Tslenergy, và không mất phí rút tiền',
     txt9:
       'Thời gian rút tiền vào 10 giờ sáng đến 5 giờ chiều mỗi ngày, từ thứ hai đến thứ sáu',
     txt10:
@@ -460,7 +461,7 @@ export default {
     txt2: 'Vui lòng nhập số tiền gửi',
     txt3: 'Vui lòng chọn phương thức gửi tiền',
     txt4:
-      'SunPower cung cấp dịch vụ gửi tiền 24 giờ.Bạn có thể hoàn tất việc đổi niêm yết OTC của SunPower mọi lúc mọi nơi, và hưởng thu nhập cho thuê',
+      'Tslenergy cung cấp dịch vụ gửi tiền 24 giờ.Bạn có thể hoàn tất việc đổi niêm yết OTC của Tslenergy mọi lúc mọi nơi, và hưởng thu nhập cho thuê',
     txt5: 'Số tiền gửi không được nhỏ hơn',
     txt6: 'Số tiền gửi không được lớn hơn',
     txt7: 'Trạng thái',

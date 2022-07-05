@@ -1,12 +1,12 @@
 <template>
-  <modMain title="Rekrutmen SunPower" class="recruitment">
+  <modMain title="Rekrutmen Tslenergy" class="recruitment">
     <div class="recruitment-bg"></div>
     <div class="recruitment-main">
       <div class="tit">kami membutuhkanmu!</div>
       <div class="recruitment-info">
         <p class="recruitment-desc">
-          Grup SunPower telah menyesuaikan tata letak bisnis globalnya, dan
-          SunPower berencana untuk terus memperluas tim tenaga kerjanya di
+          Grup Tslenergy telah menyesuaikan tata letak bisnis globalnya, dan
+          Tslenergy berencana untuk terus memperluas tim tenaga kerjanya di
           lokasi pelaksanaan proyek. Saat ini, lowongan pekerjaan kami sedang
           disesuaikan, dan posisi rekrutmen utama adalah sebagai berikut:
         </p>
@@ -99,9 +99,9 @@
         <div class="recruitment-require">
           <div class="recruitment-txt">
             <p>
-              Posisi rekrutmen di atas sedang disusun, bergaji tinggi. SunPower
+              Posisi rekrutmen di atas sedang disusun, bergaji tinggi. Tslenergy
               akan membuka jendela pengiriman resume pada Maret 2022. Setelah
-              jendela pengiriman resume dibuka, SunPower akan melakukan
+              jendela pengiriman resume dibuka, Tslenergy akan melakukan
               pemilihan atas CV dan mengadakan wawancara berdasarkan hasil
               pemilihan.
             </p>
@@ -116,7 +116,7 @@
               3.Ujian tertulis profesional<br />
               4.Wawancara profesional.<br />
               Bagi yang berminat harap memperhatikan informasi yang dikirimkan
-              oleh SunPower, SunPower menantikan anda untuk bergabung.
+              oleh Tslenergy, Tslenergy menantikan anda untuk bergabung.
             </p>
           </div>
         </div>

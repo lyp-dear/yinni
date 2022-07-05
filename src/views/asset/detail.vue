@@ -50,13 +50,13 @@
           <p>
             1.最多购买100套,价格为{{ $utils.currencyType }}{{ item.actualPrice
             }}<br />2.每日回报{{
-              item.returnRate
+              item.returnRate * 100
             }}%,总回报1000%.<br />3.收益每日发放,到期返还本金.<br />4.您可以享受朋友投资的8%+2%的红利
           </p>
           <div class="procut-desc">
             Tesla Powerwall 是共享经济的能源平台。<br />推动新能源发展，造福世界人民。<br />特斯拉将在世界各地阳光充足的地方建造大型太阳能发电站。<br />让每一位用户都获得新能量。
           </div>
-          <img src="@/assets/image/tsl/pro1.png" alt="" />
+          <img :src="item.imgUrl" alt="" />
         </div>
       </div>
     </div>

@@ -14,13 +14,13 @@ export default {
     txt4: 'Aturan',
     txt5: 'Pembagian kesejahteraan',
     txt6: [
-      '1:User SunPower dapat berpartisipasi Acara Pembagian Hadiah Dengan Tunai satu hari sekali.',
+      '1:User Tslenergy dapat berpartisipasi Acara Pembagian Hadiah Dengan Tunai satu hari sekali.',
 
-      '2:Pada pukul 6 sore setiap hari, SunPower akan membagikan kode undian pada grup official, pengguna SunPower dapat memasuki kode undian untuk berpartisipasi acara undian.',
+      '2:Pada pukul 6 sore setiap hari, Tslenergy akan membagikan kode undian pada grup official, pengguna Tslenergy dapat memasuki kode undian untuk berpartisipasi acara undian.',
 
-      '3:Semua pengguna SunPower mempunyai kesempatan untuk mendapatkan hadiah tunai, dan jumlah hadiahnya mulai dari Rp100 sampai dengan Rp1,000,000.',
+      '3:Semua pengguna Tslenergy mempunyai kesempatan untuk mendapatkan hadiah tunai, dan jumlah hadiahnya mulai dari Rp100 sampai dengan Rp1,000,000.',
 
-      '4:Jumlah hadiah yang didapatkan pengguna SunPower yang berpartisipasi pada acara undian tergantung pada tingkat aktifnya(login, mengundang, menginvestasi)',
+      '4:Jumlah hadiah yang didapatkan pengguna Tslenergy yang berpartisipasi pada acara undian tergantung pada tingkat aktifnya(login, mengundang, menginvestasi)',
 
       ' 5:Jumlah hadiah dapat ditarik dan investasi, tanpa pembatasan apapun dalam penggunaannya.',
     ],
@@ -28,12 +28,12 @@ export default {
   },
   index: {
     txt1: 'Beranda',
-    txt2: 'Tentang SunPower',
+    txt2: 'Tentang Tslenergy',
     txt3: 'Menginvestasikan',
     txt4: 'Hadiah Tunai',
     txt6: 'Tim Saya',
     txt7: 'CS',
-    txt8: 'SunPower',
+    txt8: 'Tslenergy',
     txt9: 'Rekomendasi',
     txt17: 'Pendapatan harian',
     txt18: 'Menjadi',
@@ -45,8 +45,8 @@ export default {
     txt24: 'Hubungan yang sangat stabil dengan klien',
     txt25: 'Perhatian industri yang luas',
     txt26: 'Platform yang terjamin',
-    txt27: ' Bagaimana cara operasional untuk platform SunPower',
-    txt28: 'Mendaftar menjadi pengguna SunPower',
+    txt27: ' Bagaimana cara operasional untuk platform Tslenergy',
+    txt28: 'Mendaftar menjadi pengguna Tslenergy',
     txt29: ' Mendaftar melalui email atau nomor HP',
     txt30: 'Investasi peralatan',
     txt31:
@@ -56,14 +56,14 @@ export default {
       'Peralatan menghasilkan pendapatan sewa harian dan diperhitungkan setiap hari',
     txt34: 'Belajar berinvestasi dengan lebih baik',
     txt35:
-      'SunPower mempunyai proyek kerjasama yang stabil, dapat menjamin penghasilan dengan waktu yang panjang dan stabil',
+      'Tslenergy mempunyai proyek kerjasama yang stabil, dapat menjamin penghasilan dengan waktu yang panjang dan stabil',
     txt36: 'Beranda',
     txt37: 'Peralatan',
     txt38: 'Undang',
     txt39: 'Membagi',
     txt40: 'Saya',
     txt42: 'Kali',
-    txt43: 'Tingkat penghasilan harian',
+    txt43: 'Tingkat pengembalian',
     txt45: 'Bonus untuk pengguna baru:',
     txt46: [
       '1.Setelah pendaftaran pengguna baru berhasil di platform, platform akan memberikan bonus pendaftaran sebesar Rp10000;',
@@ -81,7 +81,7 @@ export default {
     txt3: 'Satuan peralatan',
     txt4: 'Status peralatan',
     txt5: 'Model peralatan',
-    txt6: 'Penghasilan harian',
+    txt6: 'Penghasilan',
     txt7: 'Durasi penggunaan',
     txt8: 'Jangka waktu untuk pemulihan modal',
     txt9: 'Apakah sewa dikonfirmasi?',
@@ -96,7 +96,7 @@ export default {
     txt19: 'Dihitung setiap hari',
     txt20: 'Cara perhitungan',
     txt21: 'Dihitung setiap hari',
-    txt22: 'Tingkat penghasilan harian',
+    txt22: 'Tingkat pengembalian',
     txt23: 'Peralatan ini dapat disewa dengan berkali-kali',
     txt24: 'Sewa',
     txt25: 'Daftar sewa',
@@ -105,14 +105,14 @@ export default {
       'Loader adalah sejenis mesin konstruksi pekerjaan tanah yang banyak digunakan dalam proyek konstruksi seperti jalan, rel kereta api, konstruksi, pemeliharaan air dan rekayasa tenaga air, pelabuhan, tambang, dll. Ini terutama digunakan untuk menyekop bahan curah seperti tanah, pasir, kapur, batu bara, dll., dan juga dapat digunakan untuk bijih , tanah keras, dll. untuk operasi penyekopan dan penggalian ringan. Dengan mengganti perangkat kerja bantu yang berbeda juga dapat digunakan untuk buldoser, pengangkatan, dan operasi loading dan unloading material lain seperti kayu. <br/>Dalam pembangunan jalan raya, terutama pada jalan raya dengan kualitas tinggi, loader digunakan untuk pekerjaan penimbunan dan penggalian pondasi jalan, campuran aspal serta pengumpulan dan pemuatan material untuk stockpile beton semen.Selain itu, juga dapat melakukan operasi seperti mendorong dan mengangkut tanah, meratakan tanah, dan menarik mesin lainnya. Karena loader memiliki keunggulan kecepatan kerja yang cepat, efisiensi tinggi, kemampuan manuver yang baik, dan pengoperasian yang mudah,dll. loader telah menjadi salah satu jenis alat utama konstruksi pekerjaan tanah dan batu dalam konstruksi teknik.',
       'Buldoser adalah sejenis kendaraan rekayasa, dilengkapi dengan pisau(blade) logam besar di bagian depan. Saat digunakan, pisau diturunkan untuk menyekop dan mendorong lumpur, pasir, batu dan benda lainnya ke depan. Posisi dan sudut pisau dapat disetting. Buldoser dapat menyelesaikan pekerjaan penggalian, pengangkutan dan pembongkaran sendiri, dan memiliki keunggulan operasi yang fleksibel, rotasi yang nyaman, permukaan kerja yang kecil diperlukan, dan kecepatan mengemudi yang cepat. Alat ini terutama cocok untuk penggalian dangkal dan pengangkutan jarak dekat untuk tanah dengan kategori satu hingga tiga, seperti pembersihan atau perataan lokasi, penggalian lubang pondasi yang dangkal dan backfill, Pondasi jalan yang dilandasi dengan ketinggian kecil.',
       "Ekskavator adalah kendaraan rekayasa khusus yang terdiri dari platform berputar, sekop besar, dan lengan mekanik. Biasanya berjalan dengan rel atau roda. Ekskavator yang platform dapat berputar dengan 360 derajat. Di bagian tengah dudukan putaran ekskavator, pada umumnya ada perangkat Ass'y. Cangkang dipasang pada bagian atas mesin ada 6-9 pipa minyak dan poros tengah yang dipasang pada bagian bawah mesin ada juga 6-9 pipa oli yang dapat diputar 360 derajat. Fungsinya adalah untuk mengalihkan oli hidrolik mesin atas ke unit motor hidrolik bepergian dalam struktur sasis, menggerakkan crawler dan kemudian berjalan, atau mengoperasikan blade, sehingga bagian atas ekskavator perlu diputar 360 derajat beberapa kali",
-      'Truk pengaduk atau disebut dengan Truk mixer beton, adalah truk khusus yang digunakan untuk mengangkut beton siap pakai ke lokasi konstruksi; truk ini dilengkapi dengan drum pencampur silinder untuk membawa beton campuran, yang akan selalu menjaga drum pencampur berputar selama transportasi untuk memastikan Beton yang dibawa tidak akan mengeras. Setelah beton diangkut, bagian dalam drum pencampur biasanya dicuci dengan air untuk mencegah beton yang mengeras sehingga memakan tempat. <br/>Berinvestasi dalam peralatan berarti memiliki hak untuk mendapatkan keuntungan dari peralatan tersebut. Selama masa sewa peralatan, pendapatan yang dihasilkan oleh peralatan menjadi milik investor. SunPower akan menjamin pendapatan investor, dan SunPower akan mengembalikan semua dana investasi setelah waktu periode penggunaan selesai.',
+      'Truk pengaduk atau disebut dengan Truk mixer beton, adalah truk khusus yang digunakan untuk mengangkut beton siap pakai ke lokasi konstruksi; truk ini dilengkapi dengan drum pencampur silinder untuk membawa beton campuran, yang akan selalu menjaga drum pencampur berputar selama transportasi untuk memastikan Beton yang dibawa tidak akan mengeras. Setelah beton diangkut, bagian dalam drum pencampur biasanya dicuci dengan air untuk mencegah beton yang mengeras sehingga memakan tempat. <br/>Berinvestasi dalam peralatan berarti memiliki hak untuk mendapatkan keuntungan dari peralatan tersebut. Selama masa sewa peralatan, pendapatan yang dihasilkan oleh peralatan menjadi milik investor. Tslenergy akan menjamin pendapatan investor, dan Tslenergy akan mengembalikan semua dana investasi setelah waktu periode penggunaan selesai.',
       'Tower crane adalah alat pengangkat yang paling umum digunakan di lokasi konstruksi, juga dikenal dengan"cran berbentuk menara ", yang diperpanjang(dipertinggi) bagian demi bagian (disebut sebagai "bagian standar") untuk mengangkat batang baja, kayu pancang , beton, pipa baja dan bahan konstruksi lainnya. Tower crane adalah peralatan sangat penting di lokasi konstruksi',
       'Truk pertambangan besar merupakan truk jungkit diluar jalan raya(Off-highway dump trucks), Seperti truk jungkit yang digunakan untuk mengangkut tambang batu bara dan pasir di tambang terbuka besar dan proyek pemeliharaan air. Dalam bidang Teknik sipil, truk jungkit sering bekerja bersama dengan ekskavator, loader, belt conveyor dan mesin konstruksi lainnya untuk membentuk lini produksi pemuatan, pengangkutan, dan pembongkaran untuk melakukan pemuatan, pembongkaran dan pengangkutan tanah, batu & pasir, dan material curah.',
       'Platform minyak adalah fasilitas struktural skala besar yang terletak di laut untuk pengeboran dan ekstraksi minyak dan gas alam, dan menyimpannya sementara sampai minyak diangkut ke kilang minyak daratan untuk pengolahan minyak mentah menjadi produk. Dalam banyak kasus, platform berisi fasilitas penambangan dan area perumahan untuk tenaga kerja. <br/>Menurut keadaan yang berbeda, platform dapat dipasang ke dasar laut, mungkin pulau buatan, atau mungkin mengapung di laut. Beberapa sumur minyak bawah laut juga dapat dihubungkan ke 1 platform minyak yang sama, terhubung melalui jaringan pipa.',
       'Kapal semi-submersible mengacu pada jenis kapal khusus di mana sebagian besar lambung dapat terendam air selama operasi bongkar muat, dan dalam keadaan draft normal saat berlayar. Ada banyak tangki ballast di dalam lambung. Turun dan terapung selama operasi bongkar muat diselesaikan dengan memasukkan dan mengalirkan air balas. Ini adalah kapal tugas berat yang mengkhususkan diri dalam mengangkut peralatan super besar. Ini disebut " Forklift lepas pantai". Menurut tujuan desain, kapal semi-submersible dibagi menjadi kapal teknik penyelamatan semi-submersible dan kapal pengangkut semi-submersible.',
     ],
     txt27:
-      '<br/>Berinvestasi dalam peralatan ini, berarti memiliki hak untuk mendapatkan keuntungan dari peralatan tersebut. Selama masa sewa peralatan, pendapatan yang dihasilkan oleh peralatan menjadi milik investor. SunPower akan menjamin pendapatan investor, dan SunPower akan mengembalikan semua dana investasi setelah periode penggunaan selessai.',
+      '<br/>Berinvestasi dalam peralatan ini, berarti memiliki hak untuk mendapatkan keuntungan dari peralatan tersebut. Selama masa sewa peralatan, pendapatan yang dihasilkan oleh peralatan menjadi milik investor. Tslenergy akan menjamin pendapatan investor, dan Tslenergy akan mengembalikan semua dana investasi setelah periode penggunaan selessai.',
     txt28: 'Berhasil untuk menyewa',
     txt29: 'Harga sewa',
   },
@@ -137,11 +137,11 @@ export default {
     txt4: 'Bonus+',
     txt5: 'Grup official Telegram',
     txt6:
-      'Bergabunglah ke grup official Telegram untuk mendapatkan kesejahteraan SunPower.',
+      'Bergabunglah ke grup official Telegram untuk mendapatkan kesejahteraan Tslenergy.',
     txt7: 'Membagi',
     txt12: 'Join',
     txt13: 'Membagi ke',
-    txt14: 'Mengirim ke SunPower kepada teman atau grup teman',
+    txt14: 'Mengirim ke Tslenergy kepada teman atau grup teman',
     txt15: ['Membagi', 'screenshot'],
     txt16: ['Simpan', 'screenshot dan membagi, upload screenshot nya.'],
     txt23:
@@ -149,8 +149,8 @@ export default {
     txt24: 'Pergi ke bagi',
     txt25: '3:Setiap pengguna Sandar dibatas untuk mengambil satu kali',
     txt26: 'Membagi screenshot penghasilan dari kontrak, upload screenshot',
-    txt27: ' Membuat video promosi SunPower, mengupload ke YouTube',
-    txt28: ' Membuat video promosi SunPower, mengupload ke Tiktok',
+    txt27: ' Membuat video promosi Tslenergy, mengupload ke YouTube',
+    txt28: ' Membuat video promosi Tslenergy, mengupload ke Tiktok',
 
     txt37: 'Pergi ke login',
     txt38: 'Mengambil',
@@ -165,8 +165,8 @@ export default {
     txt60: 'Format gambar salah',
     txt61: 'Gambar yang diupload dibatas dengan 6M',
     txt66:
-      'Semua orang berpartisipasi dalam pembangunan dan menciptakan masa depan yang lebih baik! Pengguna baru akan mendapatkan Rp 200000 sebagai hadiah dan penghasilan gratis harian sebesar Rp 2000. Bergabunglah dengan grup resmi, dapatkan bonus Rp 5000, undang teman untuk mendapatkan lebih banyak, dapatkan bonus Rp500 untuk setiap undangan. Lebih banyak tugas berbagi dapat diperoleh secara gratis, dengan penghasilan tidak terbatas. Bergabunglah dengan pengalaman SunPower!  ',
-    txt67: 'Tautan undangan eksklusif SunPower',
+      'Semua orang berpartisipasi dalam pembangunan dan menciptakan masa depan yang lebih baik! Pengguna baru akan mendapatkan Rp 200000 sebagai hadiah dan penghasilan gratis harian sebesar Rp 2000. Bergabunglah dengan grup resmi, dapatkan bonus Rp 5000, undang teman untuk mendapatkan lebih banyak, dapatkan bonus Rp500 untuk setiap undangan. Lebih banyak tugas berbagi dapat diperoleh secara gratis, dengan penghasilan tidak terbatas. Bergabunglah dengan pengalaman Tslenergy!  ',
+    txt67: 'Tautan undangan eksklusif Tslenergy',
     txt68: 'Salin',
     txt69:
       'Salin tautan, buka perangkat lunak sosial di ponsel dan bagikan dengan teman',
@@ -182,11 +182,11 @@ export default {
     txt88: 'Upload',
     txt91:
       'Tautan berbagi telah berhasil disalin, Anda dapat pergi ke tempel dan bagikan',
-    txt92: 'Rekam video tutorial SunPower',
-    txt93: 'Video berisi operasi dan pengenalan SunPower',
+    txt92: 'Rekam video tutorial Tslenergy',
+    txt93: 'Video berisi operasi dan pengenalan Tslenergy',
     txt94: 'Upload video ke saluran YouTobe Anda',
     txt95:
-      'Buat video promosi untuk SunPower, upload ke saluran YouTobe, setelah ditinjau sistem, dapatkan bonus Rp3000',
+      'Buat video promosi untuk Tslenergy, upload ke saluran YouTobe, setelah ditinjau sistem, dapatkan bonus Rp3000',
     txt96: 'Silakan masukkan alamat tautan video YouTube yang Anda buat',
     txt97: 'Masukkan tautan video YouTube',
     txt98: 'Silakan input alamat berbagi yang benar',
@@ -196,51 +196,51 @@ export default {
     txt102: 'Klik untuk melihat dan membagikan contoh gambar',
     txt103: [
       'Gunakan',
-      'Bagikan SunPower',
+      'Bagikan Tslenergy',
       ',  undang teman untuk menebus dan mendapatkan penghasilan bersama.',
     ],
     txt104: [
       'Menggunakan ',
-      ' Bagikan SunPower ke teman atau bagikan ke ',
+      ' Bagikan Tslenergy ke teman atau bagikan ke ',
       ' grup milik Anda，upload dan bagikan screenshot, setelah ditinjau sistem, dapatkan bonus +Rp1000',
     ],
     txt105: 'Contoh',
 
     txt106: 'Undangan nyata dan efektif, bonus Rp500 per orang',
-    txt107: 'Aturan undangan',
+    txt107: 'Tim',
     txt108: [
-      '1:SunPower memberikan hadiah besar kepada pengundang.',
+      '1:Tslenergy memberikan hadiah besar kepada pengundang.',
       '2:Undangan yang nyata dan efektif, setiap mengundang teman, bonus 500Rp.',
-      '3:SunPower memberi pengundang bonus dengan 5% dari jumlah investasi.',
-      '4:SunPower memberi pengundang bonus  8% dari pendapatan investasi.',
+      '3:Tslenergy memberi pengundang bonus dengan 5% dari jumlah investasi.',
+      '4:Tslenergy memberi pengundang bonus  8% dari pendapatan investasi.',
     ],
     txt109: 'Pengingat:',
     txt110: [
-      '1: Sebagai pemimpin global dalam energi surya komersial, SunPower mendorong lebih banyak pengguna untuk bergabung dengan kami, mengubah cara dunia diberdayakan, dan membantu lebih banyak orang memperoleh penghasilan',
-      '2:Sistem SunPower akan mengidentifikasi keaslian pengguna berdasarkan IP login setiap pengguna, waktu login, dan status berbagi.',
-      '3:Sistem SunPower akan secara ketat meninjau keaslian semua pengguna. hanya undangan asli dan valid yang akan dihargai oleh SunPower dengan bonus.',
-      '4:SunPower akan meninjau setiap undangan, dan undangan yang nyata dan efektif akan menerima bonus undangan dalam waktu 24 jam.',
+      '1: Sebagai pemimpin global dalam energi surya komersial, Tslenergy mendorong lebih banyak pengguna untuk bergabung dengan kami, mengubah cara dunia diberdayakan, dan membantu lebih banyak orang memperoleh penghasilan',
+      '2:Sistem Tslenergy akan mengidentifikasi keaslian pengguna berdasarkan IP login setiap pengguna, waktu login, dan status berbagi.',
+      '3:Sistem Tslenergy akan secara ketat meninjau keaslian semua pengguna. hanya undangan asli dan valid yang akan dihargai oleh Tslenergy dengan bonus.',
+      '4:Tslenergy akan meninjau setiap undangan, dan undangan yang nyata dan efektif akan menerima bonus undangan dalam waktu 24 jam.',
     ],
-    txt111: 'Bergabung dengan grup SunPower, diberikan bonus Rp5000',
+    txt111: 'Bergabung dengan grup Tslenergy, diberikan bonus Rp5000',
     txt112:
-      'Anggota grup SunPower berbagi, acara pembagian bonus platform, jangan sampai terlewatkan',
+      'Anggota grup Tslenergy berbagi, acara pembagian bonus platform, jangan sampai terlewatkan',
     txt113: 'Grup Telegram',
-    txt114: 'Buat video promosi untuk SunPower dan upload ke saluran YouTobe',
+    txt114: 'Buat video promosi untuk Tslenergy dan upload ke saluran YouTobe',
     txt115: 'Tugas harian',
-    txt116: 'Bonus  SunPower',
-    txt117: 'Bagikan SunPower ke grup WhatsApp',
+    txt116: 'Bonus  Tslenergy',
+    txt117: 'Bagikan Tslenergy ke grup WhatsApp',
     txt118:
-      'Bagikan SunPower ke grup WhatsApp, biarkan teman Anda mendaftar SunPower melalui tautan undangan Anda, Anda akan mendapatkan lebih banyak kesejahteraan. Bagikan 4 grup mana pun setiap hari dan upload screeenshot yang Anda bagikan. Setelah ditinjau sistem, Anda bisa mendapatkan bonus sebesar Rp2000.',
+      'Bagikan Tslenergy ke grup WhatsApp, biarkan teman Anda mendaftar Tslenergy melalui tautan undangan Anda, Anda akan mendapatkan lebih banyak kesejahteraan. Bagikan 4 grup mana pun setiap hari dan upload screeenshot yang Anda bagikan. Setelah ditinjau sistem, Anda bisa mendapatkan bonus sebesar Rp2000.',
     txt119:
       'Silakan upload grup yang berbeda setiap hari. Hanya ada satu kesempatan peninjauan per hari. Jika Anda upload grup yang sama atau salah, Anda dapat uploadnya lagi keesokan harinya.',
     txt120:
-      'Kirim deposit, penarikan, dan screenshot SunPower ke teman atau grup.',
+      'Kirim deposit, penarikan, dan screenshot Tslenergy ke teman atau grup.',
     txt121:
-      'Kirim tangkapan layar penghasilan, setoran, dan penarikan SunPower ke teman untuk ditampilkan, dan setelah ditinjau sistem, dapatkan bonus Rp1000.',
+      'Kirim tangkapan layar penghasilan, setoran, dan penarikan Tslenergy ke teman untuk ditampilkan, dan setelah ditinjau sistem, dapatkan bonus Rp1000.',
     txt122: 'Berbagi grup',
-    txt123: 'Buat video promosi untuk SunPower dan upload ke saluran Tiktok',
+    txt123: 'Buat video promosi untuk Tslenergy dan upload ke saluran Tiktok',
     txt124:
-      'Buat video promosi untuk SunPower, upload ke saluran Tiktok, setelah ditinjau sistem, dapatkan bonus Rp10,000',
+      'Buat video promosi untuk Tslenergy, upload ke saluran Tiktok, setelah ditinjau sistem, dapatkan bonus Rp10,000',
   },
 
   my: {
@@ -289,7 +289,7 @@ export default {
     txt5: 'Konfirmasi kata sandi',
     txt6: 'Silakan masukkan kode verifikasi',
     txt7: 'Daftar',
-    txt8: '《Persyaratan Layanan Pengguna SunPower》',
+    txt8: '《Persyaratan Layanan Pengguna Tslenergy》',
     txt9: 'Lupa kata sandi Anda?',
     txt10: 'CS',
     txt11: 'Grup',
@@ -393,9 +393,9 @@ export default {
     txt8: 'Rincian',
 
     txt13:
-      'SunPower bekerja sama dengan bank komersial dan memiliki mekanisme penjaminan dana yang lengkap. Semua deposit akan mencapai akun Anda dalam waktu 10 menit. Harap pastikan bahwa informasi akun sudah benar.',
+      'Tslenergy bekerja sama dengan bank komersial dan memiliki mekanisme penjaminan dana yang lengkap. Semua deposit akan mencapai akun Anda dalam waktu 10 menit. Harap pastikan bahwa informasi akun sudah benar.',
     txt17:
-      'SunPower memiliki mekanisme jaminan keamanan dana yang lengkap. Semua penarikan akan mencapai akun dalam satu hari. Harap pastikan bahwa informasi akun penarikan sudah benar.',
+      'Tslenergy memiliki mekanisme jaminan keamanan dana yang lengkap. Semua penarikan akan mencapai akun dalam satu hari. Harap pastikan bahwa informasi akun penarikan sudah benar.',
   },
 
   msg: {
@@ -434,11 +434,11 @@ export default {
     txt4: 'Silakan pilih kartu bank',
     txt5: 'Tambahkan metode lain',
     txt6:
-      'SunPower menarikan 12% sebagai biaya pemeliharaan peralatan dan pajak penghasilan pribadi',
+      'Tslenergy menarikan 12% sebagai biaya pemeliharaan peralatan dan pajak penghasilan pribadi',
     txt7:
-      'SunPower menarikan 8% dari pendapatan investasi sebagai biaya layanan',
+      'Tslenergy menarikan 8% dari pendapatan investasi sebagai biaya layanan',
     txt8:
-      'Menyelesaikan kontrak pembayaran apa pun akan otomatis menjadi pengguna VIP SunPower, tanpa biaya untuk penarikan',
+      'Menyelesaikan kontrak pembayaran apa pun akan otomatis menjadi pengguna VIP Tslenergy, tanpa biaya untuk penarikan',
     txt9:
       'Waktu penarikan adalah Senin hingga Jumat, pukul 9 pagi hingga 5 sore setiap hari',
     txt10:
@@ -458,7 +458,7 @@ export default {
     txt2: 'Silakan masukkan jumlah setoran',
     txt3: 'Silakan pilih metode setor',
     txt4:
-      'SunPower menyediakan layanan setoran 24 jam. Kapan saja, di mana saja, Anda dapat menyelesaikan penebusan OTC SunPower di rak, dan mendapatkan penghasilan penebusan',
+      'Tslenergy menyediakan layanan setoran 24 jam. Kapan saja, di mana saja, Anda dapat menyelesaikan penebusan OTC Tslenergy di rak, dan mendapatkan penghasilan penebusan',
     txt5: 'Jumlah setoran tidak boleh kurang dari',
     txt6: 'Jumlah setoran tidak boleh lebih dari',
     txt7: 'Status',

@@ -87,7 +87,7 @@ export default {
         productType[idx]
       }, thu nhập mỗi ngày:  ₫${price[idx]}`
 
-      // Congratulations！UID:83****00 SunPower 5-star merchant,  get exchange income: 24000INR
+      // Congratulations！UID:83****00 Tslenergy 5-star merchant,  get exchange income: 24000INR
       // 用户88***888   邀请了6个好友,领取了3R$
       // 用户88***888   下级收益提成R$xx
       return name

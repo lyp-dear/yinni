@@ -8,13 +8,19 @@
     padding: 0 10px;
     width: 300px;
     .copylink {
-      height: 50px;
+      height: 40px;
       background: rgba(2, 0, 46, 0.28);
       border-radius: 2px;
-      line-height: 60px;
-      display: flex;
-      align-items: center;
+      line-height: 40px;
+      color: #fff;
+      font-size: 12px;
+      overflow: hidden; /*内容超出后隐藏*/
+      text-overflow: ellipsis; /* 超出内容显示为省略号 */
+      white-space: nowrap; /* 文本不进行换行 */
+      width: 100%;
+      padding: 0 10px;
     }
+
     .copy-btn {
       width: 100%;
       background: #00a3fe;
@@ -31,16 +37,16 @@
         color: #fff;
         text-align: center;
         line-height: 20px;
+        font-size: 12px;
         &:nth-of-type(1) {
           margin-bottom: 10px;
         }
       }
     }
     .share-logo {
-      margin-top: 10px;
-      margin: 10px 20px 10px 20px;
+      margin: 0 20px 10px 20px;
       .logos-share {
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -50,6 +56,9 @@
           img {
             width: 100%;
             object-fit: cover;
+            background: #fff;
+            border-radius: 100%;
+            overflow: hidden;
           }
         }
       }

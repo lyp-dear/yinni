@@ -10,7 +10,7 @@ import pt from './pt.js' // 葡萄牙语
 import vi from './vi.js' // 葡萄牙语
 import ko from './ko.js' // 韩语kr
 import es from './es.js' // 西班牙语kr
-import id_id from './id.js' // 西班牙语kr
+import id from './id.js' // 西班牙语kr
 // 注册i18n实例并引入语言文件
 // var queryString = item => {
 //   var svalue = window.location.search.match(
@@ -57,7 +57,6 @@ const i18n = new VueI18n({
     pt_BR: pt,
     ko_KR: ko,
     es_ES: es,
-    id_ID: id_id,
     id_ID: zh,
     vi_VN: vi,
   },

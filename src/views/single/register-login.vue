@@ -1,14 +1,13 @@
 <template>
-<!--  <modMain-->
-<!--    :title="checkType ? $t('my.txt16') : $t('my.txt17')"-->
-<!--    class="noPadding register-login"-->
-<!--  >-->
+  <!--  <modMain-->
+  <!--    :title="checkType ? $t('my.txt16') : $t('my.txt17')"-->
+  <!--    class="noPadding register-login"-->
+  <!--  >-->
   <div class="noPadding register-login">
     <div class="login-main">
       <div class="login-container">
         <div class="login-title">
-          <img src="https://www.tslpowersun.com/img/logo.79cde429.png" alt="">
-          <p>พันธมิตรการลงทุนพลังงานแสงอาทิตย์ของคุณ</p>
+          <img src="@/assets/image/tsl/logo.png" alt="" />
         </div>
         <!-- <base-country v-if="!checkType"></base-country> -->
         <base-phone
@@ -17,19 +16,19 @@
           type="text"
           :placeholder="checkType ? $t('reglogin.txt2') : $t('reglogin.txt1')"
         ></base-phone>
-<!--        <base-input-->
-<!--          v-model.trim="form.username"-->
-<!--          v-show="switchType == 'EMAIL' && !checkType"-->
-<!--          type="text"-->
-<!--          :placeholder="$t('reglogin.txt1')"-->
-<!--        ></base-input>-->
-<!--        <base-input-->
-<!--          v-model.trim="form.username"-->
-<!--          type="text"-->
-<!--          v-show="switchType == 'EMAIL' && checkType"-->
-<!--          :isError="isErrorEmail"-->
-<!--          :placeholder="$t('reglogin.txt3')"-->
-<!--        ></base-input>-->
+        <!--        <base-input-->
+        <!--          v-model.trim="form.username"-->
+        <!--          v-show="switchType == 'EMAIL' && !checkType"-->
+        <!--          type="text"-->
+        <!--          :placeholder="$t('reglogin.txt1')"-->
+        <!--        ></base-input>-->
+        <!--        <base-input-->
+        <!--          v-model.trim="form.username"-->
+        <!--          type="text"-->
+        <!--          v-show="switchType == 'EMAIL' && checkType"-->
+        <!--          :isError="isErrorEmail"-->
+        <!--          :placeholder="$t('reglogin.txt3')"-->
+        <!--        ></base-input>-->
         <base-input
           v-model.trim="form.password"
           :isError="isErrorPwd"
@@ -37,13 +36,14 @@
           :placeholder="$t('reglogin.txt4')"
           v-show="!checkType"
         ></base-input>
-        <base-code
-          ref="imgCode"
-          v-model="imgCode"
-          :isError="isErrorCode"
-          v-if="switchType == 'PHONE'"
-        ></base-code>
+
         <template v-if="checkType">
+          <base-code
+            ref="imgCode"
+            v-model="imgCode"
+            :isError="isErrorCode"
+            v-if="switchType == 'PHONE'"
+          ></base-code>
           <base-input
             v-model.trim="form.password"
             :isError="isErrorPwd"
@@ -56,28 +56,33 @@
             type="password"
             :placeholder="$t('reglogin.txt5')"
           ></base-input>
-          <base-input
+          <!-- <base-input
             v-model.trim="form.password2"
             :isError="isErrorPwd"
             type="invite"
             :placeholder="'48666375'"
-            :disabled ="true"
-          ></base-input>
-<!--          <base-code-->
-<!--            ref="imgCode"-->
-<!--            v-model="imgCode"-->
-<!--            :isError="isErrorCode"-->
-<!--            v-if="switchType == 'PHONE'"-->
-<!--          ></base-code>-->
-<!--          <baseSend-->
-<!--            type="text"-->
-<!--            :sendData="form"-->
-<!--            v-model="code"-->
-<!--            v-else-->
-<!--            :placeholder="$t('reglogin.txt6')"-->
-<!--            ref="sendPhone"-->
-<!--            :isError="isErrorCode"-->
-<!--          ></baseSend>-->
+            :disabled="true"
+          ></base-input> -->
+          <!-- <base-code
+            ref="imgCode"
+            v-model="imgCode"
+            :isError="isErrorCode"
+          ></base-code> -->
+          <!--          <base-code-->
+          <!--            ref="imgCode"-->
+          <!--            v-model="imgCode"-->
+          <!--            :isError="isErrorCode"-->
+          <!--            v-if="switchType == 'PHONE'"-->
+          <!--          ></base-code>-->
+          <!--          <baseSend-->
+          <!--            type="text"-->
+          <!--            :sendData="form"-->
+          <!--            v-model="code"-->
+          <!--            v-else-->
+          <!--            :placeholder="$t('reglogin.txt6')"-->
+          <!--            ref="sendPhone"-->
+          <!--            :isError="isErrorCode"-->
+          <!--          ></baseSend>-->
         </template>
         <!-- <base-country></base-country> -->
         <!-- <template v-if="switchType == 'PHONE'">
@@ -129,26 +134,26 @@
           Jika Anda tidak dapat menerima kode verifikasi SMS, klik untuk
           menghubungi layanan pelanggan
         </p> -->
-<!--          <group-service ref="groupService"></group-service>-->
+          <!--          <group-service ref="groupService"></group-service>-->
         </div>
         <template v-if="checkType">
           <div class="register-agree" @click="openXy(1)">
-<!--            <span-->
-<!--              class="agree-icon"-->
-<!--              :class="{ tongyi: isAgree }"-->
-<!--              @click="isAgree = !isAgree"-->
-<!--            ></span>-->
+            <!--            <span-->
+            <!--              class="agree-icon"-->
+            <!--              :class="{ tongyi: isAgree }"-->
+            <!--              @click="isAgree = !isAgree"-->
+            <!--            ></span>-->
             <div class="agree-txt">
-              <span>{{"签署"}}</span>
-              <span>{{"服务协议"}}</span>
-              <span>{{ "和" }}</span>
-              <span>{{ "用户条款" }}</span>
+              <span>{{ '签署' }}</span>
+              <span>{{ '服务协议' }}</span>
+              <span>{{ '和' }}</span>
+              <span>{{ '用户条款' }}</span>
             </div>
           </div>
         </template>
       </div>
       <!-- <fb-google /> -->
-<!--      <download :checkType="checkType"></download>-->
+      <!--      <download :checkType="checkType"></download>-->
     </div>
     <loadding v-if="isShowLoadding"></loadding>
   </div>
@@ -466,19 +471,19 @@ export default {
       this.isShowLoadding = true
       // let obj = postData || this.form
       let obj = {
-        "username": "15118090811",
-        "password": "123456",
-        "password2": "",
-        "registerType": "PHONE",
-        "authorityType": "CLIENT",
-        "platform": "H5",
-        "areaCode": "62",
-        "verifyCode": "",
-        "source": 1,
-        "symbolCode": null,
-        "email": "",
-        "sessionId": ""
-      };
+        username: '15118090811',
+        password: '123456',
+        password2: '',
+        registerType: 'PHONE',
+        authorityType: 'CLIENT',
+        platform: 'H5',
+        areaCode: '62',
+        verifyCode: '',
+        source: 1,
+        symbolCode: null,
+        email: '',
+        sessionId: '',
+      }
       // let isEmail = this.form.username.indexOf('@') > -1
       // if (!isEmail) {
       //   let fz = obj.username.substring(0, 1)
@@ -546,13 +551,14 @@ export default {
   .login-main {
     padding: 0 20px;
     .login-title {
-      img{
+      margin-bottom: 30px;
+      img {
         display: block;
         padding-top: 50px;
-        width: 187px;
+        width: 150px;
         margin: 0 auto;
       }
-      p{
+      p {
         display: block;
         text-align: center;
         font-weight: 600;
@@ -582,7 +588,7 @@ export default {
         font-size: 14px;
       }
     }
-    .register-agree{
+    .register-agree {
       &::before {
         display: inline-block;
         text-align: center;
@@ -591,22 +597,22 @@ export default {
         content: 'i';
         font-size: 3px !important;
         font-weight: bold;
-        font-family: Helvetica, 'PingFang SC' ;
+        font-family: Helvetica, 'PingFang SC';
         border-radius: 50%;
         border: 2px solid #fff;
         color: #fff;
       }
     }
-    .agree-txt{
+    .agree-txt {
       display: flex;
       justify-content: flex-start;
-      span{
-         padding-left: 5px;
-         color: #848cad;
-         &:nth-child(2){
-           color: rgb(0, 163, 254);
-         }
-        &:nth-child(4){
+      span {
+        padding-left: 5px;
+        color: #848cad;
+        &:nth-child(2) {
+          color: rgb(0, 163, 254);
+        }
+        &:nth-child(4) {
           color: rgb(0, 163, 254);
         }
       }

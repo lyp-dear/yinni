@@ -20,11 +20,13 @@
         <span> {{ feeRate }}%</span>
       </p>
     </div>
-    <p class="choose-card-tit">{{ $t('withdrawal.txt4') }}</p>
-    <div class="choose-card" @click="chooseCard">
-      <div class="card-name">{{ bankNameCard.name }}</div>
-      <div class="card-number">{{ bankNameCard.bankCardId }}</div>
-      <van-icon class="arrow" name="arrow" />
+    <div class="price-box">
+      <p class="choose-card-tit">{{ $t('withdrawal.txt4') }}</p>
+      <div class="choose-card" @click="chooseCard">
+        <div class="card-name">{{ bankNameCard.name }}</div>
+        <div class="card-number">{{ bankNameCard.bankCardId }}</div>
+        <van-icon class="arrow" name="arrow" />
+      </div>
     </div>
     <div class="tips">
       <h3>{{ $t('task.txt109') }}</h3>
@@ -112,10 +114,10 @@
     </div> -->
 
     <div class="inver-btn">
-      <p>
+      <!-- <p>
         <span> {{ $t('withdrawal.txt3') }}</span>
         <span> {{ $utils.currencyType }}{{ this.usdtNum - feeMoney }} </span>
-      </p>
+      </p> -->
       <van-button class="btn" :loading="isLoading" @click="buy">{{
         $t('my.txt5')
       }}</van-button>
@@ -355,43 +357,55 @@ export default {
 .in-withdrwawl {
   /deep/ .single-content {
     padding-bottom: 100px !important;
-    background: #f3f3f3;
+    padding: 0 15px;
     .choose-card,
     .price-box,
     .tips {
-      background: #fff;
       border-radius: 12px;
       padding: 20px 16px;
       margin-top: 20px;
+      border: 1px solid #005983 !important;
+      background-image: linear-gradient(180deg, #002962, #00376a) !important;
     }
     .choose-card-tit {
-      margin: 20px 0 8px 16px;
-      color: #16141f;
+      color: #fff;
+      margin-bottom: 10px;
     }
+
     .choose-card {
-      margin-top: 0;
       display: flex;
       align-items: center;
+      margin-top: 0;
+      padding: 10px !important;
+      border-radius: 6px !important;
+      .card-name {
+        color: #fff;
+      }
       .card-number {
         flex: 1;
         text-align: right;
         margin-right: 10px;
+        color: #fff;
       }
       .van-icon {
         margin-left: auto;
+        color: #fff;
       }
     }
     .tips {
       h3 {
-        color: #16141f;
+        color: #fff;
         font-size: 16px;
         margin-bottom: 10px;
       }
       p {
         font-size: 12px;
-        color: #16141f;
+        color: #fff;
         line-height: 20px;
         font-weight: 500;
+        a {
+          color: #fadda7;
+        }
       }
     }
   }

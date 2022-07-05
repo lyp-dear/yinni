@@ -77,7 +77,7 @@ export default {
       cumulativeData: 0, //我的排名
       myIncome: 0,
       list: [],
-      baseUrl: 'https://in.sunpoweronline.live',
+      baseUrl: 'https://in.Tslenergyonline.live',
     }
   },
   computed: {

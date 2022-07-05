@@ -710,7 +710,7 @@ const router = new VueRouter({
   },
 })
 router.beforeEach((to, from, next) => {
-  document.title = 'SunPower' // to.meta.title
+  document.title = 'Tslenergy' // to.meta.title
   // 没有token时候,无法跳转其他页面.
   const Token = localStorage.getItem('token')
   // let loginUrls = ['/deposit', '/withdrawal']

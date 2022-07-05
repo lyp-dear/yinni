@@ -24,14 +24,12 @@
             class="copy-btn"
             v-clipboard:copy="coypLink"
             v-clipboard:success="copy"
-            >复制链接</van-button
+            >复制邀请链接</van-button
           >
           <div class="copy-txt">
             <p>现在推广</p>
             <p>
-              复制邀请链接。 选择您要推广的平台。 粘贴并转发到您的所有社交网络。
-              当有人通过您的邀请链接成功注册时。
-              您可以在该部分查看您的促销活动的收入。 应用的“推荐收入”
+              选择你要推广的平台。粘贴并转发到你的所有社交网络。当有人通过你邀请链接成功注册。你将奖励Rp500。你可以在“我”的页面查看你的“推广收益”
             </p>
           </div>
           <div class="share-logo">

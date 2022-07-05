@@ -9,9 +9,9 @@ import { Toast } from 'vant'
 //  var time = null;
 let baseURl =
   process.env.NODE_ENV === 'production'
-    ? 'https://m.sunpowers.online/r9cs3pfp'
+    ? 'https://m.ustslenergy.com/r9cs3pfp'
     : process.env.NODE_ENV === 'uat'
-    ? 'https://m.sunpowers.online/r9cs3pfp'
+    ? 'https://m.ustslenergy.com/r9cs3pfp'
     : '/trade'
 axios.defaults.timeout = 100000 //請求過期時間。
 axios.defaults.baseURL = baseURl

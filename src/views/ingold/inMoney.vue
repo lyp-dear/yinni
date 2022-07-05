@@ -29,10 +29,12 @@
         </div>
       </div>
     </div>
-    <p class="choose-card-tit">{{ $t('depost.txt3') }}</p>
-    <div class="choose-card" @click="chooseCard">
-      <div class="card-name">{{ bankNameCard.name }}</div>
-      <van-icon class="arrow" name="arrow" />
+    <div class="price-box">
+      <p class="choose-card-tit">{{ $t('depost.txt3') }}</p>
+      <div class="choose-card" @click="chooseCard">
+        <div class="card-name">{{ bankNameCard.name }}</div>
+        <van-icon class="arrow" name="arrow" />
+      </div>
     </div>
 
     <!-- <div class="balance-box">
@@ -421,15 +423,22 @@ export default {
       background-image: linear-gradient(180deg, #002962, #00376a) !important;
     }
     .choose-card-tit {
-      margin: 20px 0 8px 16px;
       color: #fff;
+      font-size: 12px;
+      margin-bottom: 10px;
     }
     .choose-card {
       display: flex;
       align-items: center;
       margin-top: 0;
+      padding: 10px !important;
+      border-radius: 6px !important;
+      .card-name {
+        color: #fff;
+      }
       .van-icon {
         margin-left: auto;
+        color: #fff;
       }
     }
     .choose-tit {
@@ -458,7 +467,7 @@ export default {
         }
         &.active {
           border: 1px solid #0094f6;
-          color: #0094f6;
+          color: #00a3fe;
         }
       }
     }

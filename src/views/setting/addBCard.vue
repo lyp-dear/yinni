@@ -113,6 +113,8 @@ export default {
         vm.form.name = obj.name
         vm.form.mobilePhone = obj.mobilePhone
         vm.form.branchName = obj.branchName
+      } else {
+        vm._getBankCard()
       }
     })
   },
@@ -133,18 +135,6 @@ export default {
     next()
   },
   created() {
-    if (this.$route.query.card) {
-      let card = JSON.parse(this.$route.query.card)
-      this.form.id = card.id
-      this.form.mobilePhone = card.mobilePhone
-      this.form.name = this.userInfo.name
-      this.form.bankCardId = card.bankCardId
-      this.form.bankName = card.bankName
-      this.form.bankCode = card.bankCode
-    } else {
-      this.form.name = this.userInfo.name
-      this.form.mobilePhone = this.userInfo.mobilePhone
-    }
     let bankCode = localStorage.getItem('bankCode') || null
     if (bankCode) {
       let item = JSON.parse(bankCode)
@@ -176,7 +166,27 @@ export default {
       this.form.birthday = moment(value).format('MM-DD-yyyy')
       this.hideBirthdayPopup()
     },
+    _getBankCard() {
+      this.getBankCard().then(res => {
+        if (res.code == 0) {
+          this.bankcards = res.data
 
+          if (this.bankcards.length > 0) {
+            let card = this.bankcards[0]
+            this.form.id = card.id
+            this.form.mobilePhone = card.mobilePhone
+            this.form.name = this.userInfo.name
+            this.form.bankCardId = card.bankCardId
+            this.form.bankName = card.bankName
+            this.form.bankCode = card.bankCode
+          } else {
+            this.form.name = this.userInfo.name
+            this.form.mobilePhone = this.userInfo.mobilePhone
+          }
+        }
+        this.showLoadding = false
+      })
+    },
     btnClick() {
       //   let time = this.form.birthday.replace(/-/g, '/')
       //   var d = new Date(time)
@@ -254,19 +264,22 @@ export default {
         this.getBankCard()
         this.isSaved = false
         this.showDialog(this.$t('card.txt15'))
-        let { from } = this.$route.query
-        if (from && from == 'withdrawal') {
-          this.$router.push({
-            path: '/withdrawal',
-          })
-        } else {
-          this.$router.push({
-            path: '/bankcard',
-            query: {
-              backPath: '/setting',
-            },
-          })
-        }
+        this.$router.push({
+          path: '/withdrawal',
+        })
+        // let { from } = this.$route.query
+        // if (from && from == 'withdrawal') {
+        //   this.$router.push({
+        //     path: '/withdrawal',
+        //   })
+        // } else {
+        //   this.$router.push({
+        //     path: '/bankcard',
+        //     query: {
+        //       backPath: '/setting',
+        //     },
+        //   })
+        // }
       } else {
         this.isSaved = false
         this.errDialog(res.msg)

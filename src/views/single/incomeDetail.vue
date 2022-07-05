@@ -3,8 +3,8 @@
     <!-- <div class="top-fiexd">
       <topTabs :tabs="tabs" @itemClick="itemClick" />
     </div> -->
-    <div class="income-top-fixed">
-      <!-- <topTabs :tabs="tabs" @itemClick="itemClick" /> -->
+    <!-- <div class="income-top-fixed">
+      <topTabs :tabs="tabs" @itemClick="itemClick" />
       <div
         v-for="(item, index) in tabs"
         :key="index"
@@ -16,7 +16,7 @@
         </div>
         <p>{{ item.title }}</p>
       </div>
-    </div>
+    </div> -->
 
     <div class="income-main">
       <van-list
@@ -139,21 +139,19 @@
   }
 }
 .income-main {
-  margin-top: 90px;
   // margin-top: 54px;
   // margin-top: calc(54px + constant(safe-area-inset-top));
   // margin-top: calc(54px + env(safe-area-inset-top));
   padding: 0 12px;
 
   .list {
-    background: #fff;
+    background: #00a3fe;
     padding: 12px;
-    box-shadow: 2px 8px 13px 0px rgba(164, 164, 164, 0.4);
     border-radius: 14px;
     margin-bottom: 10px;
     position: relative;
     .time {
-      color: #939393;
+      color: #fff;
       font-size: 14px;
       font-weight: 500;
       margin-bottom: 16px;
@@ -161,12 +159,12 @@
     .list-type {
       font-size: 14px;
       font-weight: 500;
-      color: #000;
+      color: #fff;
     }
     .list-share-type {
       font-size: 14px;
       font-weight: 500;
-      color: #000;
+      color: #fff;
       margin-top: 16px;
     }
     .list-amount {
